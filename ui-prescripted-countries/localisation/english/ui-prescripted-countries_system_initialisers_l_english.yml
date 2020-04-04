@@ -1,0 +1,13 @@
+﻿l_english:
+### NAMES
+ ui_alora_system_initialiser_NAME:0 "Alora System"
+ ui_korhal_system_initialiser_NAME:0 "Korhal System"
+ ui_sara_system_initialiser_NAME:0 "Sara System"
+ ui_sol_roman_system_initializer_NAME:0 "Sol System (Latin)"
+
+### DESCRIPTIONS
+ ui_alora_system_initialiser_DESC:0 "System for the Krynn Consulate, based on the informations from the GalCiv games.\n\n$system_initializer_DESC$"
+ ui_korhal_system_initialiser_DESC:0 "System modeled after the Korhal system from Starcraft, with adjacent stars.\n\n$system_initializer_DESC$"
+ ui_sara_system_initialiser_DESC:0 "System modeled after the Sara system from Starcraft, with adjacent stars.\n\n$system_initializer_DESC$"
+ ui_sol_roman_system_initializer_DESC:0 "System modeled after Earth's solar system, with adjacent stars. Uses Latin names.\n\n$system_initializer_DESC$"
+ 

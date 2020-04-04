@@ -1,0 +1,74 @@
+ui_galciv_altarian = {
+={
+	key="Altarian Republic"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_05"
+		name="Altarian"
+		plural="Altarians"
+		adjective="Altarian"
+		name_list="HUM2"
+		trait="ui_trait_optimistic"
+		trait="trait_traditional"
+		trait="trait_conformists"
+		trait="ui_trait_lazy"
+	}
+	secondary_species={
+		class="MAM"
+		portrait="mam10"
+		name="Drath"
+		plural="Drath"
+		adjective="Drath"
+		name_list="ui_extra_mam1"
+		trait="trait_syncretic_proles"
+		trait="ui_trait_deceitful"
+		trait="trait_solitary"
+	}
+	name="Altarian Republic"
+	adjective="Altarian"
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	planet_name="Altaria"
+	planet_class="pc_continental"
+	system_name="Altaris"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="ui_galciv"
+			file="flag_ui_galciv_altarian.dds"
+		}
+		background={
+			category="backgrounds"
+			file="ui_diamond3.dds"
+		}
+		colors={
+			"turquoise"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Elyes Mue"
+		portrait="humanoid_05_female_01"
+		texture=0
+		hair=40
+		clothes=5
+		ruler_title_female="Holy Leader"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=yes
+	ignore_portrait_duplication=no
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_syncretic_evolution"
+		"civic_meritocracy"
+	}
+}

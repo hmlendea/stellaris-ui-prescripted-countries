@@ -1,0 +1,69 @@
+"Commonwealth of Polystralia"
+={
+	key="Commonwealth of Polystralia"
+	ship_prefix="CPS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Polystralians"
+		adjective="Polystralian"
+		name_list="ui_extra_humans_austronesian"
+		trait="trait_nomadic"
+		trait="trait_adaptive"
+		trait="trait_solitary"
+	}
+	name="Commonwealth of Polystralia"
+	adjective="Polystralian"
+	authority="auth_democratic"
+	flags={
+		"human_1"
+		"custom_start_screen"
+	}
+	government="gov_moral_democracy"
+	planet_name="Moana"
+	planet_class="pc_ocean"
+	system_name="Kamehameha"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="ui_civbe"
+			file="ui_polystralia.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_teal"
+			"light_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mãtene Taumata"
+		portrait="human_male_03"
+		texture=0
+		hair=8
+		clothes=3
+		ruler_title="Elected King"
+		ruler_title_female="Elected Queen"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_environmentalist"
+	}
+	origin="origin_lost_colony"
+}

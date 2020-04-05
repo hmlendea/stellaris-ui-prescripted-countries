@@ -6,7 +6,7 @@
 		class="HUM"
 		portrait="human"
 		name="Human"
-		plural="Humans"
+		plural="Terrans"
 		adjective="Terran"
 		name_list="ui_starcraft_human"
 		trait="ui_trait_very_adaptive"

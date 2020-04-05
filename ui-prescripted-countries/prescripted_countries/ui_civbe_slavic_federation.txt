@@ -22,11 +22,12 @@
 		"custom_start_screen"
 	}
 	government="gov_representative_democracy"
+	advisor_voice_type="l_the_worker"
 	planet_name="Khrabrost"
 	planet_class="pc_continental"
 	system_name="Novaya Zvezda"
 	initializer=""
-	graphical_culture="humanoid_01"
+	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
@@ -51,7 +52,6 @@
 		texture=0
 		hair=21
 		clothes=2
-		ruler_title="President"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
@@ -64,4 +64,5 @@
 		"civic_free_haven"
 		"civic_functional_architecture"
 	}
+	origin="origin_lost_colony"
 }

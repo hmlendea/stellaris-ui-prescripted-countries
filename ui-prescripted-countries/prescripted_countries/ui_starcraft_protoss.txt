@@ -19,7 +19,8 @@
 	name="Protoss Empire"
 	adjective="Protoss"
 	authority="auth_imperial"
-	government="gov_theocratic_monarchy"
+	government="gov_feudal_empire"
+	advisor_voice_type="l_spiritualist"
 	planet_name="Aiur"
 	planet_class="pc_tropical"
 	system_name="Golden Orb of Day"
@@ -50,7 +51,9 @@
 		hair=0
 		clothes=4
 		ruler_title="Hierarch"
+		ruler_title_female="Hierarch"
 		heir_title="Elder"
+		heir_title_female="Elder"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=yes
@@ -61,7 +64,8 @@
 	ethic="ethic_xenophobe"
 	ethic="ethic_spiritualist"
 	civics={
-		"civic_life_seeded"
 		"civic_environmentalist"
+		"civic_feudal_realm"
 	}
+	origin="origin_shoulders_of_giants"
 }

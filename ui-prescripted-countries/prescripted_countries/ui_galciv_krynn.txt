@@ -44,6 +44,7 @@ ui_galciv_krynn = {
         texture = 1
         hair = 0
         clothes = 0
+        ruler_title = "Consul"
         ruler_title_female = "Consul"
         leader_class = "ruler"
     }

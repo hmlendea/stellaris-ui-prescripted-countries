@@ -48,6 +48,7 @@
 		hair=0
 		clothes=1
 		ruler_title="Chancellor"
+		ruler_title_female="Chancellor"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no

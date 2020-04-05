@@ -1,7 +1,7 @@
-ui_galciv_altarian = {
+"Altarian Republic"
 ={
 	key="Altarian Republic"
-	ship_prefix="ISS"
+	ship_prefix="ARS"
 	species={
 		class="HUM"
 		portrait="humanoid_05"
@@ -22,7 +22,8 @@ ui_galciv_altarian = {
 		adjective="Drath"
 		name_list="ui_extra_mam1"
 		trait="trait_syncretic_proles"
-		trait="ui_trait_deceitful"
+		trait="trait_nomadic"
+		trait="trait_strong"
 		trait="trait_solitary"
 	}
 	name="Altarian Republic"
@@ -46,29 +47,31 @@ ui_galciv_altarian = {
 		}
 		colors={
 			"turquoise"
-			"dark_blue"
+			"dark_purple"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Elyes Mue"
+		name="Eleys Mue"
 		portrait="humanoid_05_female_01"
 		texture=0
 		hair=40
-		clothes=5
-		ruler_title_female="Holy Leader"
+		clothes=6
+		ruler_title="President"
+		ruler_title_female="President"
 		leader_class="ruler"
 	}
-	spawn_as_fallen=yes
+	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=yes
-	ethic="ethic_xenophobe"
+	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
-		"civic_syncretic_evolution"
 		"civic_meritocracy"
+		"civic_environmentalist"
 	}
+	origin="origin_syncretic_evolution"
 }

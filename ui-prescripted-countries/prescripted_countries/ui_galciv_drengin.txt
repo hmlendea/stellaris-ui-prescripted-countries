@@ -48,7 +48,9 @@
 		hair=0
 		clothes=2
 		ruler_title="Lord"
+		ruler_title_female="Lady"
 		heir_title="Lord"
+		heir_title_female="Lady"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=yes

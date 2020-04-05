@@ -48,6 +48,7 @@ ui_elderscrolls_argonian = {
         hair = 0
         clothes = 4
         ruler_title = "High Root-Speaker"
+        ruler_title_female = "High Root-Speaker"
         leader_class = "ruler"
     }
     spawn_as_fallen = yes

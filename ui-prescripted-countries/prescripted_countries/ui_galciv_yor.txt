@@ -47,6 +47,7 @@
 		hair=0
 		clothes=0
 		ruler_title="Administrator"
+		ruler_title_female="Administrator"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
@@ -58,4 +59,5 @@
 		"civic_machine_terminator"
 		"civic_machine_introspective"
 	}
+	origin="origin_machine"
 }

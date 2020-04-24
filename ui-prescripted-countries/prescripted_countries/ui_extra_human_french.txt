@@ -1,9 +1,9 @@
 "French Republic"
 ={
 	key="French Republic"
-	ship_prefix="UNS"
+	ship_prefix="FRS"
 	species={
-		class="FRS"
+		class="HUM"
 		portrait="human"
 		name="Human"
 		plural="French"
@@ -11,7 +11,10 @@
 		name_list="ui_extra_humans_french"
 		trait="trait_traditional"
 		trait="trait_charismatic"
-		trait="trait_deviants"
+		trait="ui_trait_creative"
+		trait="ui_trait_optimistic"
+		trait="ui_trait_urban"
+		trait="trait_unruly"
 	}
 	name="French Republic"
 	adjective="French"
@@ -21,20 +24,20 @@
 		"custom_start_screen"
 	}
 	government="gov_direct_democracy"
-	planet_name="Le Coeur"
+	planet_name="Clairefontaine"
 	planet_class="pc_continental"
-	system_name="Étincelle"
+	system_name="Libelulle"
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="ui_civbe"
-			file="ui_francoiberia.dds"
+			category="human"
+			file="ui_fleur-de-lys.dds"
 		}
 		background={
 			category="backgrounds"
-			file="ui_sides.dds"
+			file="ui_diagonal_stripe.dds"
 		}
 		colors={
 			"blue"
@@ -44,9 +47,9 @@
 		}
 	}
 	ruler={
-		gender=female
-		name="Élodie Duchaine"
-		portrait="human_female_04"
+		gender=male
+		name="Sébastien Lebouef"
+		portrait="human_male_01"
 		texture=0
 		hair=18
 		clothes=3
@@ -63,7 +66,7 @@
 	ethic="ethic_materialist"
 	civics={
 		"civic_beacon_of_liberty"
-		"civic_diplomatic_corps"
+		"civic_parliamentary_system"
 	}
 	origin="origin_lost_colony"
 }

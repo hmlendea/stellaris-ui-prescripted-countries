@@ -1,21 +1,22 @@
-"Germanic Technocracy"
+
+"INTEGR"
 ={
-	key="Germanic Technocracy"
-	ship_prefix="GTS"
+	key="INTEGR"
+	ship_prefix="IS"
 	species={
 		class="HUM"
 		portrait="human"
 		name="Human"
 		plural="Germans"
-		adjective="Germanic"
-		name_list="ui_extra_humans_germanic"
+		adjective="German"
+		name_list="ui_extra_humans_german"
 		trait="trait_natural_engineers"
 		trait="trait_adaptive"
 		trait="trait_traditional"
 		trait="trait_slow_breeders"
 	}
-	name="Germanic Technocracy"
-	adjective="Germanic"
+	name="INTEGR"
+	adjective="INTEGR"
 	authority="auth_democratic"
 	flags={
 		"human_1"
@@ -31,16 +32,16 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="ui_pandora"
-			file="ui_scientific.dds"
+			category="ui_civbe"
+			file="ui_integr.dds"
 		}
 		background={
 			category="backgrounds"
 			file="00_solid.dds"
 		}
 		colors={
-			"dark_grey"
-			"green"
+			"burgundy"
+			"dark_green"
 			"null"
 			"null"
 		}

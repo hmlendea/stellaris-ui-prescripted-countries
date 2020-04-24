@@ -37,7 +37,7 @@
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="ui_circle_bicolour2.dds"
 		}
 		colors={
 			"grey"

@@ -3,7 +3,7 @@
 	key="Aldmeri Dominion"
 	ship_prefix="UNS"
 	species={
-		class="HUM"
+		class="ADS"
 		portrait="humanoid_05"
 		name="Altmer"
 		plural="Altmer"

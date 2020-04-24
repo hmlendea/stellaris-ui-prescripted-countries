@@ -3,7 +3,7 @@
 	key="United Arab Emirates"
 	ship_prefix="UNS"
 	species={
-		class="HUM"
+		class="UAS"
 		portrait="human"
 		name="Human"
 		plural="Arabs"

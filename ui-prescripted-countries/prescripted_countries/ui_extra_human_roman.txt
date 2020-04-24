@@ -1,0 +1,70 @@
+"Roman Empire"
+={
+	key="Roman Empire"
+	ship_prefix="RES"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Romans"
+		adjective="Roman"
+		name_list="ui_extra_humans_spqr_extended"
+		trait="trait_nomadic"
+		trait="ui_trait_very_docile"
+		trait="ui_trait_very_adaptive"
+		trait="ui_trait_urban"
+		trait="trait_wasteful"
+		trait="ui_trait_very_demanding"
+	}
+	name="Roman Empire"
+	adjective="Roman"
+	authority="auth_imperial"
+	flags={
+		"human_1"
+		"custom_start_screen"
+	}
+	government="gov_star_empire"
+	advisor_voice_type="l_militarist"
+	planet_name="Nova Roma"
+	planet_class="pc_continental"
+	system_name="Nova"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="ui_total-war"
+			file="ui_rtw_julii.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Servius Cornelius"
+		portrait="human_male_01"
+		texture=0
+		hair=31
+		clothes=6
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics={
+		"civic_nationalistic_zeal"
+		"civic_efficient_bureaucracy"
+	}
+	origin="origin_lost_colony"
+}

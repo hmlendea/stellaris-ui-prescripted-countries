@@ -1,0 +1,69 @@
+"People's African Union"
+={
+	key="People's African Union"
+	ship_prefix="PAS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Africans"
+		adjective="African"
+		name_list="ui_extra_humans_african"
+		trait="trait_industrious"
+		trait="trait_agrarian"
+		trait="ui_trait_undemanding"
+		trait="ui_trait_optimistic"
+		trait="ui_trait_very_quarrelsome"
+		trait="trait_unruly"
+	}
+	name="People's African Union"
+	adjective="African"
+	authority="auth_democratic"
+	flags={
+		"human_1"
+		"custom_start_screen"
+	}
+	government="gov_communal_parity"
+	planet_name="Adimbo"
+	planet_class="pc_savannah"
+	system_name="Wakanda"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ui_civbe"
+			file="ui_africa.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Samatar Jama Barre"
+		portrait="human_male_05"
+		texture=0
+		hair=2
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_peaceful_traders_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_shared_burden"
+	}
+	origin="origin_lost_colony"
+}

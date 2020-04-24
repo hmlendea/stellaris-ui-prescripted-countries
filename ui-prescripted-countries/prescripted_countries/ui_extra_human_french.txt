@@ -57,7 +57,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
 	room="personality_fanatic_befrienders_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"

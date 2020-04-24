@@ -58,7 +58,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
 	room="personality_peaceful_traders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_pacifist"
 	civics={

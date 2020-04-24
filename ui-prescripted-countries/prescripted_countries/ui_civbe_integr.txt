@@ -59,7 +59,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
 	room="machine_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_materialist"
 	civics={

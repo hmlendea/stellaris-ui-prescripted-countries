@@ -36,7 +36,7 @@
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="diagonal.dds"
 		}
 		colors={
 			"green"

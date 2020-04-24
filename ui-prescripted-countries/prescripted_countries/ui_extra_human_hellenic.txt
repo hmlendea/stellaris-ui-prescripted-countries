@@ -3,7 +3,7 @@
 	key="The Hellenic League"
 	ship_prefix="UNS"
 	species={
-		class="HUM"
+		class="HLS"
 		portrait="human"
 		name="Human"
 		plural="Celts"

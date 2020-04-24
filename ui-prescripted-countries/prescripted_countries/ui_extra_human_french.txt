@@ -3,7 +3,7 @@
 	key="French Republic"
 	ship_prefix="UNS"
 	species={
-		class="HUM"
+		class="FRS"
 		portrait="human"
 		name="Human"
 		plural="French"

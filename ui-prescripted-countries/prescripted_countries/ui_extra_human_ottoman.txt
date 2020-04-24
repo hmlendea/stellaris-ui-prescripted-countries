@@ -3,7 +3,7 @@
 	key="Ottoman Empire"
 	ship_prefix="UNS"
 	species={
-		class="HUM"
+		class="OES"
 		portrait="human"
 		name="Human"
 		plural="Turks"

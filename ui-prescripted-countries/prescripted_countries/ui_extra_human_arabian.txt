@@ -1,0 +1,71 @@
+"United Arab Emirates"
+={
+	key="United Arab Emirates"
+	ship_prefix="UNS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Arabs"
+		adjective="Arab"
+		name_list="ui_extra_humans_arabic"
+		trait="trait_thrifty"
+		trait="trait_traditional"
+		trait="trait_nomadic"
+		trait="trait_deviants"
+		trait="trait_decadent"
+	}
+	name="United Arab Emirates"
+	adjective="Arab"
+	authority="auth_imperial"
+	flags={
+		"human_1"
+		"custom_start_screen"
+	}
+	government="gov_enlightened_monarchy"
+	advisor_voice_type="l_spiritualist"
+	planet_name="Ard"
+	planet_class="pc_desert"
+	system_name="Ra"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="ui_islam.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"green"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rashad Qudsi"
+		portrait="human_male_03"
+		texture=0
+		hair=19
+		clothes=3
+		ruler_title="Emir"
+		ruler_title_female="Emir"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_philosopher_king"
+		"civic_merchant_guilds"
+	}
+	origin="origin_lost_colony"
+}

@@ -1,3 +1,5 @@
+[![Latest GitHub release](https://img.shields.io/github/v/release/hmlendea/stellaris-ui-prescripted-countries)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases/latest)
+
 # About
 
 Mod for Stellaris that adds new prescripted countries for the player or the AI to choose from when starting a new game.

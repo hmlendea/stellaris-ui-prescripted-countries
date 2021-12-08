@@ -6,6 +6,18 @@ Mod for Stellaris that adds [many new prescripted countries](https://github.com/
 
 There are also prescripted star systems for some of the countries that come from other games.
 
+# Installation
+
+[![Get it from the Workshop](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/steam-workshop.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) [![Get it from GitHub](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/github.png)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases)
+
+## Manual installation
+
+ - Download the [latest release](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases)
+ - Extract the contents into your game's mod directory
+ - Install [Universum Infinitum - Flags](https://github.com/hmlendea/stellaris-ui-flags) _(required mod)_
+ - Install [Universum Infinitum - Name Lists](https://github.com/hmlendea/stellaris-ui-name-lists) _(required mod)_
+ - Install [Universum Infinitum - Species Traits](https://github.com/hmlendea/stellaris-ui-species-traits) _(required mod)_
+
 # Universul Unfinitum Collection
 
  - [Character Traits](https://github.com/hmlendea/stellaris-ui-character-traits)

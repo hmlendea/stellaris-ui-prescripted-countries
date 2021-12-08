@@ -3,4 +3,4 @@ path="mod/ui-prescripted-countries"
 tags={
     "Galaxy Generation"
 }
-supported_version="2.6.*"
+supported_version="3.2.*"

@@ -33,8 +33,8 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="ui_total-war"
-			file="ui_rtw_julii.dds"
+			category="ui_civ"
+			file="ui_civ6_rome.dds"
 		}
 		background={
 			category="backgrounds"

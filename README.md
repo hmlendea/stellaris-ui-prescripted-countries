@@ -8,7 +8,7 @@ There are also prescripted star systems for some of the countries that come from
 
 # Installation
 
-[![Get it from the Workshop](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/steam-workshop.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) [![Get it from GitHub](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/github.png)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases)
+[![Get it from the Workshop](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/steam-workshop.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) [![Get it from Paradox Mods](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/paradox-mods.png)](https://mods.paradoxplaza.com/mods/34333/Any) [![Get it from the Nexus](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/nexus.png)](https://nexusmods.com/stellaris/mods/89) [![Get it from GitHub](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/github.png)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases)
 
 ## Manual installation
 
@@ -31,7 +31,7 @@ It should also be compatible with any other mods.
 You are welcome to bring any suggestion, feedback or modification to this project.
 
 Here are a few ways in which you can do so:
- - Commenting directly on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) page
+ - Commenting directly on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) or [Nexus](https://nexusmods.com/stellaris/mods/89) pages
  - Raising a new [issue](https://github.com/hmlendea/stellaris-ui-prescripted-countries/issues) for this project
  - Creating a git pull request _(This requires git knowledge)_
 

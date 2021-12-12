@@ -1,14 +1,15 @@
 "Ottoman Empire"
 ={
 	key="Ottoman Empire"
-	ship_prefix="UNS"
+	ship_prefix="OES"
 	species={
-		class="OES"
+		class="HUM"
 		portrait="human"
 		name="Human"
 		plural="Turks"
 		adjective="Turk"
 		name_list="ui_extra_humans_turkic"
+		gender=not_set
 		trait="trait_thrifty"
 		trait="trait_ingenious"
 		trait="trait_nomadic"

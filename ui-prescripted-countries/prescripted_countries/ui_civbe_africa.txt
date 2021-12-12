@@ -9,6 +9,7 @@
 		plural="Africans"
 		adjective="African"
 		name_list="ui_extra_humans_african"
+		gender=not_set
 		trait="trait_industrious"
 		trait="trait_agrarian"
 		trait="ui_trait_undemanding"

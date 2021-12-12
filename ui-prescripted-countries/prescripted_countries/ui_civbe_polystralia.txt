@@ -9,6 +9,7 @@
 		plural="Polystralians"
 		adjective="Polystralian"
 		name_list="ui_extra_humans_austronesian"
+		gender=not_set
 		trait="trait_nomadic"
 		trait="trait_adaptive"
 		trait="trait_solitary"

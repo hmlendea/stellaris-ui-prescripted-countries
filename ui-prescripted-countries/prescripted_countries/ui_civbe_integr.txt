@@ -9,6 +9,7 @@
 		plural="Germans"
 		adjective="German"
 		name_list="ui_extra_humans_german"
+		gender=not_set
 		trait="trait_natural_engineers"
 		trait="trait_adaptive"
 		trait="trait_traditional"

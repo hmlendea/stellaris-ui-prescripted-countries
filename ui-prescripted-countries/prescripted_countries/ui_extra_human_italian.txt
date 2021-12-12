@@ -9,6 +9,7 @@
 		plural="Italians"
 		adjective="Italian"
 		name_list="ui_extra_humans_italian"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_thrifty"
 		trait="ui_trait_creative"

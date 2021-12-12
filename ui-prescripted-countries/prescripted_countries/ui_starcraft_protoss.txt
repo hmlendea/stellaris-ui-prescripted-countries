@@ -10,6 +10,7 @@
 		adjective="Protoss"
 		species_bio="The protoss are a sapient humanoid race native to Aiur."
 		name_list="ui_starcraft_protoss"
+		gender=not_set
 		trait="trait_venerable"
 		trait="trait_very_strong"
 		trait="trait_intelligent"

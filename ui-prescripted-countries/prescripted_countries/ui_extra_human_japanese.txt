@@ -1,7 +1,7 @@
 "Japanese Empire"
 ={
 	key="Japanese Empire"
-	ship_prefix="UNS"
+	ship_prefix="JES"
 	species={
 		class="HUM"
 		portrait="human"
@@ -9,7 +9,7 @@
 		plural="Japanese"
 		adjective="Japanese"
 		name_list="ui_extra_humans_japanese"
-		trait="trait_docile"
+		gender=not_set
 		trait="trait_conformists"
 		trait="trait_traditional"
 		trait="trait_sedentary"

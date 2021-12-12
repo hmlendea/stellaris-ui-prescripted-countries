@@ -9,6 +9,7 @@
 		plural="Terrans"
 		adjective="Terran"
 		name_list="ui_starcraft_human"
+		gender=not_set
 		trait="ui_trait_very_adaptive"
 		trait="trait_nomadic"
 		trait="trait_deviants"
@@ -21,7 +22,7 @@
 	planet_name="Korhal"
 	planet_class="pc_continental"
 	system_name="Korhal"
-	initializer="ui_korhal_system_initialiser"
+	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={

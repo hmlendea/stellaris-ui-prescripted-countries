@@ -9,6 +9,7 @@
 		plural="Humans"
 		adjective="Human"
 		name_list="ui_extra_humans_extended"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_intelligent"
 		trait="ui_trait_urban"

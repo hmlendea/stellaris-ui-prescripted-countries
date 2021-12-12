@@ -9,6 +9,7 @@
 		plural="Drengi"
 		adjective="Drengin"
 		name_list="ui_extra_mam2"
+		gender=not_set
 		trait="trait_decadent"
 		trait="trait_very_strong"
 		trait="ui_trait_brave"

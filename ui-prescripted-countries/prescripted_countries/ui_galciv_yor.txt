@@ -9,6 +9,7 @@
 		plural="Yor"
 		adjective="Yor"
 		name_list="MACHINE1"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_custom_made"

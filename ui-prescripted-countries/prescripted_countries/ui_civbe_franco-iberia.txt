@@ -9,6 +9,7 @@
 		plural="French"
 		adjective="French"
 		name_list="ui_extra_humans_franco-iberian"
+		gender=not_set
 		trait="trait_traditional"
 		trait="trait_charismatic"
 		trait="ui_trait_creative"

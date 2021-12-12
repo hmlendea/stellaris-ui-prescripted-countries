@@ -1,13 +1,13 @@
 "The Hellenic League"
 ={
 	key="The Hellenic League"
-	ship_prefix="UNS"
+	ship_prefix="GLS"
 	species={
-		class="HLS"
+		class="HUM"
 		portrait="human"
 		name="Human"
-		plural="Celts"
-		adjective="Celtic"
+		plural="Hellenes"
+		adjective="Hellenic"
 		name_list="ui_extra_humans_hellenic"
 		trait="trait_adaptive"
 		trait="trait_intelligent"
@@ -15,7 +15,7 @@
 		trait="trait_decadent"
 	}
 	name="The Hellenic League"
-	adjective="Greek"
+	adjective="Hellenic"
 	authority="auth_democratic"
 	flags={
 		"human_1"

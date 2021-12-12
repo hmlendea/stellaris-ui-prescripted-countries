@@ -1,9 +1,9 @@
 "Ottoman Empire"
 ={
 	key="Ottoman Empire"
-	ship_prefix="UNS"
+	ship_prefix="OES"
 	species={
-		class="OES"
+		class="HUM"
 		portrait="human"
 		name="Human"
 		plural="Turks"

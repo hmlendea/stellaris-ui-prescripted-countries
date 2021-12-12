@@ -1,9 +1,9 @@
 "Aldmeri Dominion"
 ={
 	key="Aldmeri Dominion"
-	ship_prefix="UNS"
+	ship_prefix="ADS"
 	species={
-		class="ADS"
+		class="HUM"
 		portrait="humanoid_05"
 		name="Altmer"
 		plural="Altmer"

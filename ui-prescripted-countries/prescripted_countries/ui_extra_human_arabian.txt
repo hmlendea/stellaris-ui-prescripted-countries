@@ -1,15 +1,14 @@
 "United Arab Emirates"
 ={
 	key="United Arab Emirates"
-	ship_prefix="UNS"
+	ship_prefix="UAS"
 	species={
-		class="UAS"
+		class="HUM"
 		portrait="human"
 		name="Human"
 		plural="Arabs"
 		adjective="Arab"
 		name_list="ui_extra_humans_arabic"
-		trait="trait_thrifty"
 		trait="trait_traditional"
 		trait="trait_nomadic"
 		trait="trait_deviants"
@@ -61,8 +60,8 @@
 	ignore_portrait_duplication=yes
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=yes
-	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_authoritarian"
 	civics={
 		"civic_philosopher_king"
 		"civic_merchant_guilds"

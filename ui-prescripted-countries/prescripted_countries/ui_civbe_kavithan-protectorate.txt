@@ -9,6 +9,7 @@
 		plural="Hindi"
 		adjective="Hindi"
 		name_list="ui_extra_humans_hindi"
+		gender=not_set
 		trait="trait_rapid_breeders"
 		trait="trait_communal"
 		trait="trait_traditional"

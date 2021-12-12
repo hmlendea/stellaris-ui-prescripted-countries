@@ -9,6 +9,7 @@ ui_galciv_krynn = {
         adjective = "Krynn"
         species_bio = "These guys are trying to bring order to the galaxy in the name of religion. Staunch Federalists, they usually have the cash to take advantage of whatever interspecies opportunities happen to come up."
         name_list = "ART3"
+		gender=not_set
         trait = "ui_trait_deceitful"
     }
     name = "Krynn Syndicate"

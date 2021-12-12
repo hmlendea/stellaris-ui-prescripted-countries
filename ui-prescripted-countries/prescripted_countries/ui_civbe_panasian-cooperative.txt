@@ -9,6 +9,7 @@
 		plural="Asians"
 		adjective="Asian"
 		name_list="ui_extra_humans_hindi"
+		gender=not_set
 		trait="trait_industrious"
 		trait="trait_rapid_breeders"
 		trait="ui_trait_urban"

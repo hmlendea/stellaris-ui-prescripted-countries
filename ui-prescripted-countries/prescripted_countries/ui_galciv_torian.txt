@@ -10,6 +10,7 @@
 		adjective="Torian"
 		species_bio="The Torians are a wonderful, kind, gentle people, full of wonder and trust. As a species, the Torians are largely an aquatic race, and are nothing if not resilient. Toria is mostly covered in water and they prefer worlds that have more water on them than not."
 		name_list="REP2"
+		gender=not_set
 		trait="ui_trait_extremely_rapid_breeders"
 		trait="trait_resilient"
 		trait="ui_trait_extremely_weak"

@@ -9,6 +9,7 @@
 		plural="Romans"
 		adjective="Roman"
 		name_list="ui_extra_humans_spqr_extended"
+		gender=not_set
 		trait="trait_nomadic"
 		trait="ui_trait_very_docile"
 		trait="ui_trait_very_adaptive"

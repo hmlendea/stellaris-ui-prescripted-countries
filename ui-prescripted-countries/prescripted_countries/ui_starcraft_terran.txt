@@ -9,6 +9,7 @@
 		plural="Terrans"
 		adjective="Terran"
 		name_list="ui_starcraft_human"
+		gender=not_set
 		trait="ui_trait_very_adaptive"
 		trait="trait_nomadic"
 		trait="trait_deviants"

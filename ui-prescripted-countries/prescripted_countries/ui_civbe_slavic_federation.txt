@@ -9,6 +9,7 @@
 		plural="Slavs"
 		adjective="Slavic"
 		name_list="ui_extra_humans_slavic"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_nomadic"
 		trait="trait_traditional"

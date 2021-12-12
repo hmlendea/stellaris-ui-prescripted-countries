@@ -8,6 +8,7 @@ ui_elderscrolls_argonian = {
         plural = "Argonians"
         adjective = "Argonian"
         name_list = "ui_elderscrolls_argonian"
+		gender=not_set
         trait = "trait_agrarian"
         trait = "trait_solitary"
         trait = "trait_sedentary"

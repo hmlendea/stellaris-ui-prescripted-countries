@@ -9,6 +9,7 @@
 		plural="Altarians"
 		adjective="Altarian"
 		name_list="HUM2"
+		gender=not_set
 		trait="ui_trait_optimistic"
 		trait="trait_traditional"
 		trait="trait_conformists"

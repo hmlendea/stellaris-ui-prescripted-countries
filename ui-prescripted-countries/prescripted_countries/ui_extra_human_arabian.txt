@@ -9,6 +9,7 @@
 		plural="Arabs"
 		adjective="Arab"
 		name_list="ui_extra_humans_arabic"
+		gender=not_set
 		trait="trait_traditional"
 		trait="trait_nomadic"
 		trait="trait_deviants"

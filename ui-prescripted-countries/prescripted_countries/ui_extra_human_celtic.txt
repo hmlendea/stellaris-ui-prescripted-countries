@@ -9,6 +9,7 @@
 		plural="Celts"
 		adjective="Celtic"
 		name_list="ui_extra_humans_celtic"
+		gender=not_set
 		trait="trait_traditional"
 		trait="trait_agrarian"
 		trait="trait_nomadic"

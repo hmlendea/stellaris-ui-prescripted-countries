@@ -9,6 +9,7 @@
 		plural="Japanese"
 		adjective="Japanese"
 		name_list="ui_extra_humans_japanese"
+		gender=not_set
 		trait="trait_conformists"
 		trait="trait_traditional"
 		trait="trait_sedentary"

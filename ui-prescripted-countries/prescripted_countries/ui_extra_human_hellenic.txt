@@ -9,6 +9,7 @@
 		plural="Hellenes"
 		adjective="Hellenic"
 		name_list="ui_extra_humans_hellenic"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_intelligent"
 		trait="trait_deviants"

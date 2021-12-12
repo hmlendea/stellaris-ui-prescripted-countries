@@ -9,6 +9,7 @@
 		plural="Norse"
 		adjective="Norse"
 		name_list="ui_extra_humans_norse"
+		gender=not_set
 		trait="trait_quick_learners"
 		trait="trait_adaptive"
 		trait="trait_nomadic"

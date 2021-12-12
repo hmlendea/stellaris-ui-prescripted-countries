@@ -9,6 +9,7 @@
 		plural="Altmer"
 		adjective="Altmer"
 		name_list="ui_elderscrolls_altmer"
+		gender=not_set
 		trait="trait_intelligent"
 		trait="trait_talented"
 		trait="trait_quick_learners"

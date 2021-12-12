@@ -9,6 +9,7 @@
 		plural="Brazilians"
 		adjective="Brazilian"
 		name_list="ui_extra_humans_portuguese"
+		gender=not_set
 		trait="trait_industrious"
 		trait="ui_trait_very_adaptive"
 		trait="trait_resilient"

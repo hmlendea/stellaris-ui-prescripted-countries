@@ -21,7 +21,7 @@
 	planet_name="Korhal"
 	planet_class="pc_continental"
 	system_name="Korhal"
-	initializer="ui_korhal_system_initialiser"
+	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={

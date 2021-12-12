@@ -4,8 +4,6 @@
 
 Mod for Stellaris that adds [many new prescripted countries](https://github.com/hmlendea/stellaris-ui-prescripted-countries/wiki/Additions) for the player or the AI to choose from when starting a new game.
 
-There are also prescripted star systems for some of the countries that come from other games.
-
 # Installation
 
 [![Get it from the Workshop](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/steam-workshop.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) [![Get it from Paradox Mods](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/paradox-mods.png)](https://mods.paradoxplaza.com/mods/34333/Any) [![Get it from the Nexus](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/nexus.png)](https://nexusmods.com/stellaris/mods/89) [![Get it from GitHub](https://raw.githubusercontent.com/hmlendea/readme-assets/master/badges/stores/github.png)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases)

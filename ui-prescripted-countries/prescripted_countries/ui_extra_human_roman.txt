@@ -1,24 +1,32 @@
-"Roman Empire"
-={
+"Roman Empire"={
 	key="Roman Empire"
-	ship_prefix="RES"
+	ship_prefix={
+		key="RES"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Romans"
-		adjective="Roman"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_spqr_extended"
 		gender=not_set
-		trait="trait_nomadic"
-		trait="ui_trait_very_docile"
-		trait="ui_trait_very_adaptive"
-		trait="ui_trait_urban"
-		trait="trait_wasteful"
-		trait="ui_trait_very_demanding"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_decadent"
 	}
-	name="Roman Empire"
-	adjective="Roman"
+	name={
+		key="Roman Empire"
+	}
+	adjective={
+		key="Roman"
+	}
 	authority="auth_imperial"
 	flags={
 		"human_1"
@@ -26,9 +34,13 @@
 	}
 	government="gov_star_empire"
 	advisor_voice_type="l_militarist"
-	planet_name="Nova Roma"
+	planet_name={
+		key="Nova Roma"
+	}
 	planet_class="pc_continental"
-	system_name="Nova"
+	system_name={
+		key="Nova"
+	}
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
@@ -50,12 +62,17 @@
 	}
 	ruler={
 		gender=male
-		name="Servius Cornelius"
-		portrait="human_male_01"
+		name={
+			full_names={
+				key="Servius Cornelius"
+			}
+		}
+		portrait="human_male_03"
 		texture=0
-		hair=31
+		attachment=29
 		clothes=6
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

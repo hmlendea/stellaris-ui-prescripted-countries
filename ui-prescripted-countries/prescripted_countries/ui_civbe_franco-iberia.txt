@@ -1,32 +1,62 @@
-"Franco-Iberia"
-={
+"Franco-Iberia"={
 	key="Franco-Iberia"
-	ship_prefix="UNS"
+	ship_prefix={
+		key="FIS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="French"
-		adjective="French"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+			literal=yes
+		}
+		species_adjective={
+			key="Human"
+			literal=yes
+		}
 		name_list="ui_extra_humans_franco-iberian"
 		gender=not_set
 		trait="trait_traditional"
 		trait="trait_charismatic"
-		trait="ui_trait_creative"
-		trait="ui_trait_demanding"
-		trait="ui_trait_urban"
+		trait="trait_natural_sociologists"
+		trait="trait_slow_breeders"
 	}
-	name="Franco-Iberia"
-	adjective="Franco-Iberian"
+	name={
+		key="Franco-Iberia"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Franco-Iberian"
+					literal=yes
+				}
+			}
+
+		}
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_direct_democracy"
-	planet_name="Le Coeur"
+	advisor_voice_type="l_the_technocrat"
+	planet_name={
+		key="Le Coeur"
+		literal=yes
+	}
 	planet_class="pc_continental"
-	system_name="Étincelle"
+	system_name={
+		key="Étincelle"
+		literal=yes
+	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
@@ -48,14 +78,25 @@
 	}
 	ruler={
 		gender=female
-		name="Élodie Duchaine"
+		name={
+			full_names={
+				key="Élodie Duchaine"
+			}
+		}
 		portrait="human_female_04"
-		texture=0
-		hair=18
+		texture=2
+		attachment=4
 		clothes=3
-		ruler_title="President"
-		ruler_title_female="President"
-		leader_class="ruler"
+		ruler_title={
+			key="President"
+			literal=yes
+		}
+		ruler_title_female={
+			key="President"
+			literal=yes
+		}
+		trait="trait_ruler_eye_for_talent"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

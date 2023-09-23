@@ -1,27 +1,41 @@
-"Terran Dominion"
-={
+"Terran Dominion"={
 	key="Terran Dominion"
-	ship_prefix="TDS"
+	ship_prefix={
+		key="TDS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Terrans"
-		adjective="Terran"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_starcraft_human"
 		gender=not_set
-		trait="ui_trait_very_adaptive"
 		trait="trait_nomadic"
 		trait="trait_deviants"
 		trait="trait_wasteful"
 	}
-	name="Terran Dominion"
-	adjective="Terran"
+	name={
+		key="Terran Dominion"
+	}
+	adjective={
+		key="Terran"
+	}
 	authority="auth_imperial"
 	government="gov_star_empire"
-	planet_name="Korhal"
+	planet_name={
+		key="Korhal"
+	}
 	planet_class="pc_continental"
-	system_name="Korhal"
+	system_name={
+		key="Korhal"
+	}
 	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
@@ -43,12 +57,17 @@
 	}
 	ruler={
 		gender=male
-		name="Arcturus Mengsk"
+		name={
+			full_names={
+				key="Arcturus Mengsk"
+			}
+		}
 		portrait="human_male_03"
 		texture=0
-		hair=7
+		attachment=25
 		clothes=6
-		leader_class="ruler"
+		trait="trait_ruler_warlike"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

@@ -1,13 +1,20 @@
-"Celtic Confederation"
-={
+"Celtic Confederation"={
 	key="Celtic Confederation"
-	ship_prefix="UNS"
+	ship_prefix={
+		key="CCS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Celts"
-		adjective="Celtic"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_celtic"
 		gender=not_set
 		trait="trait_traditional"
@@ -15,17 +22,25 @@
 		trait="trait_nomadic"
 		trait="trait_unruly"
 	}
-	name="Celtic Confederation"
-	adjective="Celtic"
+	name={
+		key="Celtic Confederation"
+	}
+	adjective={
+		key="Celtic"
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_moral_democracy"
-	planet_name="Alesia"
+	planet_name={
+		key="Alesia"
+	}
 	planet_class="pc_continental"
-	system_name="Bel"
+	system_name={
+		key="Bel"
+	}
 	initializer=""
 	graphical_culture="plantoid_01"
 	city_graphical_culture="reptilian_01"
@@ -47,14 +62,25 @@
 	}
 	ruler={
 		gender=male
-		name="Sean Mac Brádaigh"
-		portrait="human_male_01"
+		name={
+			full_names={
+				key="Sean Mac Brádaigh"
+			}
+		}
+		portrait="human_male_02"
 		texture=0
-		hair=78
+		attachment=78
 		clothes=4
-		ruler_title="President"
-		ruler_title_female="President"
-		leader_class="ruler"
+		ruler_title={
+			key="President"
+			literal=yes
+		}
+		ruler_title_female={
+			key="President"
+			literal=yes
+		}
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

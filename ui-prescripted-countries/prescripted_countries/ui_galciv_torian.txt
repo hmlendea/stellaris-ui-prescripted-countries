@@ -1,27 +1,42 @@
-"Torian Confederation"
-={
+"Torian Confederation"={
 	key="Torian Confederation"
-	ship_prefix="TCS"
+	ship_prefix={
+		key="TCS"
+	}
 	species={
 		class="REP"
 		portrait="rep3"
-		name="Torian"
-		plural="Torians"
-		adjective="Torian"
+		species_name={
+			key="Torian"
+		}
+		species_plural={
+			key="Torians"
+		}
+		species_adjective={
+			key="Torian"
+		}
 		species_bio="The Torians are a wonderful, kind, gentle people, full of wonder and trust. As a species, the Torians are largely an aquatic race, and are nothing if not resilient. Toria is mostly covered in water and they prefer worlds that have more water on them than not."
 		name_list="REP2"
 		gender=not_set
-		trait="ui_trait_extremely_rapid_breeders"
 		trait="trait_resilient"
-		trait="ui_trait_extremely_weak"
+		trait="trait_rapid_breeders"
+		trait="trait_weak"
 	}
-	name="Torian Confederation"
-	adjective="Torian"
+	name={
+		key="Torian Confederation"
+	}
+	adjective={
+		key="Torian"
+	}
 	authority="auth_democratic"
 	government="gov_moral_democracy"
-	planet_name="Toria"
+	planet_name={
+		key="Toria"
+	}
 	planet_class="pc_ocean"
-	system_name="Torus"
+	system_name={
+		key="Torus"
+	}
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
@@ -43,14 +58,25 @@
 	}
 	ruler={
 		gender=male
-		name="Tlas Kzientha"
+		name={
+			full_names={
+				key="Tlas Kzientha"
+			}
+		}
 		portrait="rep3_m"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=1
-		ruler_title="Chancellor"
-		ruler_title_female="Chancellor"
-		leader_class="ruler"
+		ruler_title={
+			key="Chancellor"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Chancellor"
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
@@ -63,4 +89,5 @@
 		"civic_environmentalist"
 		"civic_agrarian_idyll"
 	}
+	origin="origin_default"
 }

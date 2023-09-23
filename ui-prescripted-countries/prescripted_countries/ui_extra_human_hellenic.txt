@@ -1,13 +1,20 @@
-"The Hellenic League"
-={
+"The Hellenic League"={
 	key="The Hellenic League"
-	ship_prefix="GLS"
+	ship_prefix={
+		key="GLS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Hellenes"
-		adjective="Hellenic"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_hellenic"
 		gender=not_set
 		trait="trait_adaptive"
@@ -15,17 +22,25 @@
 		trait="trait_deviants"
 		trait="trait_decadent"
 	}
-	name="The Hellenic League"
-	adjective="Hellenic"
+	name={
+		key="The Hellenic League"
+	}
+	adjective={
+		key="Hellenic"
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_direct_democracy"
-	planet_name="Byzantion"
+	planet_name={
+		key="Byzantion"
+	}
 	planet_class="pc_continental"
-	system_name="Helios"
+	system_name={
+		key="Helios"
+	}
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
@@ -47,14 +62,25 @@
 	}
 	ruler={
 		gender=male
-		name="Giorgos Skarlatos"
-		portrait="human_male_04"
+		name={
+			full_names={
+				key="Giorgos Skarlatos"
+			}
+		}
+		portrait="human_male_01"
 		texture=0
-		hair=91
+		attachment=14
 		clothes=3
-		ruler_title="President"
-		ruler_title_female="President"
-		leader_class="ruler"
+		ruler_title={
+			key="President"
+			literal=yes
+		}
+		ruler_title_female={
+			key="President"
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

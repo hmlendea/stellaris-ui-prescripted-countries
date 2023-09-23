@@ -1,13 +1,22 @@
-"INTEGR"
-={
+"INTEGR"={
 	key="INTEGR"
-	ship_prefix="IS"
+	ship_prefix={
+		key="IS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Germans"
-		adjective="German"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+			literal=yes
+		}
+		species_adjective={
+			key="Human"
+			literal=yes
+		}
 		name_list="ui_extra_humans_german"
 		gender=not_set
 		trait="trait_natural_engineers"
@@ -15,8 +24,12 @@
 		trait="trait_traditional"
 		trait="trait_slow_breeders"
 	}
-	name="INTEGR"
-	adjective="INTEGR"
+	name={
+		key="INTEGR"
+	}
+	adjective={
+		key="INTEGR"
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
@@ -24,11 +37,15 @@
 	}
 	government="gov_rational_consensus"
 	advisor_voice_type="l_the_technocrat"
-	planet_name="Weltgeist"
+	planet_name={
+		key="Weltgeist"
+	}
 	planet_class="pc_continental"
-	system_name="Neustern"
+	system_name={
+		key="Neustern"
+	}
 	initializer=""
-	graphical_culture="mammalian_01"
+	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
@@ -48,14 +65,25 @@
 	}
 	ruler={
 		gender=female
-		name="Lena Ebner"
-		portrait="human_female_01"
-		texture=0
-		hair=10
+		name={
+			full_names={
+				key="Lena Ebner"
+			}
+		}
+		portrait="human_female_02"
+		texture=3
+		attachment=19
 		clothes=1
-		ruler_title="Chancellor"
-		ruler_title_female="Chancellor"
-		leader_class="ruler"
+		ruler_title={
+			key="Chancellor"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Chancellor"
+			literal=yes
+		}
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

@@ -1,33 +1,46 @@
-"French Republic"
-={
+"French Republic"={
 	key="French Republic"
-	ship_prefix="FRS"
+	ship_prefix={
+		key="FRS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="French"
-		adjective="French"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_french"
 		gender=not_set
 		trait="trait_traditional"
 		trait="trait_charismatic"
-		trait="ui_trait_creative"
-		trait="ui_trait_optimistic"
-		trait="ui_trait_urban"
 		trait="trait_unruly"
+		trait="trait_talented"
 	}
-	name="French Republic"
-	adjective="French"
+	name={
+		key="French Republic"
+	}
+	adjective={
+		key="French"
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_direct_democracy"
-	planet_name="Clairefontaine"
+	planet_name={
+		key="Clairefontaine"
+	}
 	planet_class="pc_continental"
-	system_name="Libelulle"
+	system_name={
+		key="Libelulle"
+	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
@@ -49,14 +62,25 @@
 	}
 	ruler={
 		gender=male
-		name="Sébastien Lebouef"
-		portrait="human_male_01"
+		name={
+			full_names={
+				key="Sébastien Lebouef"
+			}
+		}
+		portrait="human_male_04"
 		texture=0
-		hair=18
+		attachment=18
 		clothes=3
-		ruler_title="President"
-		ruler_title_female="President"
-		leader_class="ruler"
+		ruler_title={
+			key="President"
+			literal=yes
+		}
+		ruler_title_female={
+			key="President"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

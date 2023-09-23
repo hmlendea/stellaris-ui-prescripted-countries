@@ -1,13 +1,20 @@
-"Ottoman Empire"
-={
+"Ottoman Empire"={
 	key="Ottoman Empire"
-	ship_prefix="OES"
+	ship_prefix={
+		key="OES"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Turks"
-		adjective="Turk"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_turkic"
 		gender=not_set
 		trait="trait_thrifty"
@@ -16,8 +23,12 @@
 		trait="trait_quarrelsome"
 		trait="trait_unruly"
 	}
-	name="Ottoman Empire"
-	adjective="Ottoman"
+	name={
+		key="Ottoman Empire"
+	}
+	adjective={
+		key="Ottoman"
+	}
 	authority="auth_imperial"
 	flags={
 		"human_1"
@@ -25,9 +36,13 @@
 	}
 	government="gov_feudal_empire"
 	advisor_voice_type="l_the_diplomat"
-	planet_name="Kale"
+	planet_name={
+		key="Kale"
+	}
 	planet_class="pc_arid"
-	system_name="Inanç"
+	system_name={
+		key="Inanç"
+	}
 	initializer=""
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="arthropoid_01"
@@ -49,14 +64,25 @@
 	}
 	ruler={
 		gender=male
-		name="Ozen Açik"
-		portrait="human_male_05"
+		name={
+			full_names={
+				key="Ozen Açik"
+			}
+		}
+		portrait="human_male_03"
 		texture=0
-		hair=16
+		attachment=11
 		clothes=0
-		ruler_title="Sultan"
-		ruler_title_female="Sultana"
-		leader_class="ruler"
+		ruler_title={
+			key="Sultan"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Sultana"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

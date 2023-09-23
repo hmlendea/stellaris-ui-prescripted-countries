@@ -1,30 +1,45 @@
-"Protoss Empire"
-={
+"Protoss Empire"={
 	key="Protoss Empire"
-	ship_prefix="PES"
+	ship_prefix={
+		key="PES"
+	}
 	species={
 		class="HUM"
 		portrait="humanoid_04"
-		name="Protoss"
-		plural="Protoss"
-		adjective="Protoss"
+		species_name={
+			key="Protoss"
+		}
+		species_plural={
+			key="Protoss"
+		}
+		species_adjective={
+			key="Protoss"
+		}
 		species_bio="The protoss are a sapient humanoid race native to Aiur."
 		name_list="ui_starcraft_protoss"
 		gender=not_set
 		trait="trait_venerable"
-		trait="trait_very_strong"
 		trait="trait_intelligent"
-		trait="ui_trait_extremely_slow_breeders"
+		trait="trait_slow_breeders"
 		trait="trait_sedentary"
+		trait="trait_solitary"
 	}
-	name="Protoss Empire"
-	adjective="Protoss"
+	name={
+		key="Protoss Empire"
+	}
+	adjective={
+		key="Protoss"
+	}
 	authority="auth_imperial"
 	government="gov_feudal_empire"
-	advisor_voice_type="l_spiritualist"
-	planet_name="Aiur"
-	planet_class="pc_tropical"
-	system_name="Golden Orb of Day"
+	advisor_voice_type="l_authoritarian"
+	planet_name={
+		key="Aiur"
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Golden Orb of Day"
+	}
 	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="humanoid_01"
@@ -46,19 +61,20 @@
 	}
 	ruler={
 		gender=male
-		name="Kortanul"
+		name={
+			full_names={
+				key="Kortanul"
+			}
+		}
 		portrait="humanoid_04_male_01"
 		texture=0
-		hair=0
+		attachment=0
 		clothes=4
-		ruler_title="Hierarch"
-		ruler_title_female="Hierarch"
-		heir_title="Elder"
-		heir_title_female="Elder"
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=yes
-	ignore_portrait_duplication=no
+	ignore_portrait_duplication=yes
 	room="personality_honorbound_warriors_room"
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"

@@ -1,27 +1,42 @@
-"Drengin Empire"
-={
+"Drengin Empire"={
 	key="Drengin Empire"
-	ship_prefix="DES"
+	ship_prefix={
+		key="DES"
+	}
 	species={
 		class="HUM"
 		portrait="humanoid_hp_12"
-		name="Drengin"
-		plural="Drengi"
-		adjective="Drengin"
+		species_name={
+			key="Drengin"
+		}
+		species_plural={
+			key="Drengi"
+		}
+		species_adjective={
+			key="Drengin"
+		}
 		name_list="ui_extra_mam2"
 		gender=not_set
 		trait="trait_decadent"
 		trait="trait_very_strong"
-		trait="ui_trait_brave"
 		trait="trait_slow_breeders"
+		trait="trait_conformists"
 	}
-	name="Drengin Empire"
-	adjective="Drengin"
+	name={
+		key="Drengin Empire"
+	}
+	adjective={
+		key="Drengin"
+	}
 	authority="auth_imperial"
 	government="gov_martial_empire"
-	planet_name="Drengi"
+	planet_name={
+		key="Drengi"
+	}
 	planet_class="pc_arid"
-	system_name="Drengia"
+	system_name={
+		key="Drengia"
+	}
 	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
@@ -43,16 +58,33 @@
 	}
 	ruler={
 		gender=male
-		name="Kona"
+		name={
+			full_names={
+				key="Kona"
+			}
+		}
 		portrait="humanoid_hp_12"
-		texture=3
-		hair=0
+		texture=2
+		attachment=0
 		clothes=2
-		ruler_title="Lord"
-		ruler_title_female="Lady"
-		heir_title="Lord"
-		heir_title_female="Lady"
-		leader_class="ruler"
+		ruler_title={
+			key="Lord"
+			literal=yes
+		}
+		heir_title={
+			key="Lord"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Lady"
+			literal=yes
+		}
+		heir_title_female={
+			key="Lady"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="general"
 	}
 	spawn_as_fallen=yes
 	ignore_portrait_duplication=yes
@@ -64,4 +96,5 @@
 		"civic_slaver_guilds"
 		"civic_warrior_culture"
 	}
+	origin="origin_default"
 }

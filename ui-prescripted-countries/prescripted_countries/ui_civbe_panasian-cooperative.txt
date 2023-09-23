@@ -1,33 +1,62 @@
-"Pan-Asian Cooperative"
-={
+"Pan-Asian Cooperative"={
 	key="Pan-Asian Cooperative"
-	ship_prefix="PAS"
+	ship_prefix={
+		key="PAS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Asians"
-		adjective="Asian"
-		name_list="ui_extra_humans_hindi"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+			literal=yes
+		}
+		species_adjective={
+			key="Human"
+			literal=yes
+		}
+		name_list="ui_extra_humans_asian"
 		gender=not_set
 		trait="trait_industrious"
-		trait="trait_rapid_breeders"
-		trait="ui_trait_urban"
 	}
-	name="Pan-Asian Cooperative"
-	adjective="Asian"
-	authority="auth_oligarchic"
+	name={
+		key="Pan-Asian Cooperative"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Pan-Asian"
+					literal=yes
+				}
+			}
+
+		}
+	}
+	authority="auth_dictatorial"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
-	government="gov_executive_committee"
-	planet_name="Tiangong"
+	government="gov_totalitarian_regime"
+	advisor_voice_type="l_the_worker"
+	planet_name={
+		key="Tiangong"
+		literal=yes
+	}
 	planet_class="pc_continental"
-	system_name="Xinxing"
+	system_name={
+		key="Xinxing"
+		literal=yes
+	}
 	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
 			category="ui_civbe"
@@ -46,14 +75,25 @@
 	}
 	ruler={
 		gender=female
-		name="Daoming Sochua"
+		name={
+			full_names={
+				key="Daoming Sochua"
+			}
+		}
 		portrait="human_female_02"
 		texture=0
-		hair=5
+		attachment=15
 		clothes=4
-		ruler_title="General Secretary"
-		ruler_title_female="General Secretary"
-		leader_class="ruler"
+		ruler_title={
+			key="General Secretary"
+			literal=yes
+		}
+		ruler_title_female={
+			key="General Secretary"
+			literal=yes
+		}
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

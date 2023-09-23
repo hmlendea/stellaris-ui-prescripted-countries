@@ -1,30 +1,61 @@
-"Commonwealth of Polystralia"
-={
+"Commonwealth of Polystralia"={
 	key="Commonwealth of Polystralia"
-	ship_prefix="CPS"
+	ship_prefix={
+		key="CPS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Polystralians"
-		adjective="Polystralian"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+			literal=yes
+		}
+		species_adjective={
+			key="Human"
+			literal=yes
+		}
 		name_list="ui_extra_humans_austronesian"
 		gender=not_set
 		trait="trait_nomadic"
 		trait="trait_adaptive"
 		trait="trait_solitary"
 	}
-	name="Commonwealth of Polystralia"
-	adjective="Polystralian"
+	name={
+		key="Commonwealth of Polystralia"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Polystralian"
+					literal=yes
+				}
+			}
+
+		}
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_moral_democracy"
-	planet_name="Moana"
+	advisor_voice_type="l_the_diplomat"
+	planet_name={
+		key="Moana"
+		literal=yes
+	}
 	planet_class="pc_ocean"
-	system_name="Kamehameha"
+	system_name={
+		key="Kamehameha"
+		literal=yes
+	}
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
@@ -46,19 +77,31 @@
 	}
 	ruler={
 		gender=male
-		name="Mãtene Taumata"
-		portrait="human_male_03"
+		name={
+			full_names={
+				key="Hutama"
+				literal=yes
+			}
+		}
+		portrait="human_male_01"
 		texture=0
-		hair=8
+		attachment=74
 		clothes=3
-		ruler_title="Elected King"
-		ruler_title_female="Elected Queen"
-		leader_class="ruler"
+		ruler_title={
+			key="Elected King"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Elected Queen"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
 	room="personality_decadent_hierarchy_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"

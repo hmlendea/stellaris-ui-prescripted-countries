@@ -1,23 +1,35 @@
-"Brasilia"
-={
+"Brasilia"={
 	key="Brasilia"
-	ship_prefix="BS"
+	ship_prefix={
+		key="BS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Brazilians"
-		adjective="Brazilian"
-		name_list="ui_extra_humans_portuguese"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+			literal=yes
+		}
+		species_adjective={
+			key="Human"
+			literal=yes
+		}
+		name_list="ui_extra_humans_portuguese_int"
 		gender=not_set
-		trait="trait_industrious"
-		trait="ui_trait_very_adaptive"
 		trait="trait_resilient"
+		trait="trait_adaptive"
+		trait="trait_strong"
 		trait="trait_unruly"
-		trait="ui_trait_urban"
 	}
-	name="Brasilia"
-	adjective="Brazilian"
+	name={
+		key="Brasilia"
+	}
+	adjective={
+		key="Brazilian"
+	}
 	authority="auth_dictatorial"
 	flags={
 		"human_1"
@@ -25,9 +37,13 @@
 	}
 	government="gov_military_dictatorship"
 	advisor_voice_type="l_militarist"
-	planet_name="Cidadela"
+	planet_name={
+		key="Cidadela"
+	}
 	planet_class="pc_tropical"
-	system_name="Stea"
+	system_name={
+		key="Stea"
+	}
 	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
@@ -38,23 +54,29 @@
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="ui_diamond3.dds"
 		}
 		colors={
 			"green"
-			"dark_green"
+			"light_green"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=male
-		name="Rejinaldo de Alencar"
-		portrait="human_male_03"
+		name={
+			full_names={
+				key="Rejinaldo Bolivar de Alencar-Araripe"
+				literal=yes
+			}
+		}
+		portrait="human_male_01"
 		texture=0
-		hair=4
+		attachment=72
 		clothes=4
-		leader_class="ruler"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="general"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

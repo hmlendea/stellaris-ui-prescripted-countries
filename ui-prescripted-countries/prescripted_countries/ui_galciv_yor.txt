@@ -1,26 +1,41 @@
-"Yor Collective"
-={
+"Yor Collective"={
 	key="Yor Collective"
-	ship_prefix="YCS"
+	ship_prefix={
+		key="YCS"
+	}
 	species={
 		class="MACHINE"
 		portrait="sd_hum_robot"
-		name="Yor"
-		plural="Yor"
-		adjective="Yor"
+		species_name={
+			key="Yor"
+		}
+		species_plural={
+			key="Yor"
+		}
+		species_adjective={
+			key="Yor"
+		}
 		name_list="MACHINE1"
 		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_custom_made"
 	}
-	name="Yor Collective"
-	adjective="Yor"
+	name={
+		key="Yor Collective"
+	}
+	adjective={
+		key="Yor"
+	}
 	authority="auth_machine_intelligence"
 	government="gov_machine_terminator"
-	planet_name="Iconia"
+	planet_name={
+		key="Iconia"
+	}
 	planet_class="pc_alpine"
-	system_name="Icos"
+	system_name={
+		key="Icos"
+	}
 	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="arthropoid_01"
@@ -42,14 +57,25 @@
 	}
 	ruler={
 		gender=female
-		name="N-1"
+		name={
+			full_names={
+				key="N-1"
+			}
+		}
 		portrait="sd_hum_robot"
 		texture=3
-		hair=0
+		attachment=0
 		clothes=0
-		ruler_title="Administrator"
-		ruler_title_female="Administrator"
-		leader_class="ruler"
+		ruler_title={
+			key="Administrator"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Administrator"
+			literal=yes
+		}
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

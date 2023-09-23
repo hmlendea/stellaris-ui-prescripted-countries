@@ -1,33 +1,62 @@
-"Aldmeri Dominion"
-={
+"Aldmeri Dominion"={
 	key="Aldmeri Dominion"
-	ship_prefix="ADS"
+	ship_prefix={
+		key="ADS"
+	}
 	species={
 		class="HUM"
 		portrait="humanoid_05"
-		name="Altmer"
-		plural="Altmer"
-		adjective="Altmer"
+		species_name={
+			key="Altmer"
+		}
+		species_plural={
+			key="Altmers"
+			literal=yes
+		}
+		species_adjective={
+			key="Altmeri"
+			literal=yes
+		}
 		name_list="ui_elderscrolls_altmer"
 		gender=not_set
 		trait="trait_intelligent"
 		trait="trait_talented"
 		trait="trait_quick_learners"
-		trait="ui_trait_very_long_lived"
-		trait="ui_trait_very_slow_breeders"
-		trait="ui_trait_demanding"
+		trait="trait_slow_breeders"
 	}
-	name="Aldmeri Dominion"
-	adjective="Aldmer"
+	name={
+		key="Aldmeri Dominion"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Aldmer"
+					literal=yes
+				}
+			}
+
+		}
+	}
 	authority="auth_oligarchic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_military_junta"
-	planet_name="Summerset"
+	advisor_voice_type="l_xenophobe"
+	planet_name={
+		key="Summerset"
+		literal=yes
+	}
 	planet_class="pc_continental"
-	system_name="Magnus"
+	system_name={
+		key="Magnus"
+		literal=yes
+	}
 	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="avian_01"
@@ -49,14 +78,26 @@
 	}
 	ruler={
 		gender=female
-		name="Lilawen Ateldil"
+		name={
+			full_names={
+				key="Lilawen Ateldil"
+				literal=yes
+			}
+		}
 		portrait="humanoid_05_female_01"
 		texture=0
-		hair=22
+		attachment=22
 		clothes=0
-		ruler_title="King"
-		ruler_title_female="Queen"
-		leader_class="ruler"
+		ruler_title={
+			key="King"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Queen"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

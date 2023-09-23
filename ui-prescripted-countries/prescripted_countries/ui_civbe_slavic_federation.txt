@@ -1,32 +1,60 @@
-"Slavic Federation"
-={
+"Slavic Federation"={
 	key="Slavic Federation"
-	ship_prefix="SFS"
+	ship_prefix={
+		key="SFS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Slavs"
-		adjective="Slavic"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+			literal=yes
+		}
+		species_adjective={
+			key="Human"
+			literal=yes
+		}
 		name_list="ui_extra_humans_slavic"
 		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_nomadic"
 		trait="trait_traditional"
-		trait="ui_trait_urban"
+		trait="trait_nomadic"
 	}
-	name="Slavic Federation"
-	adjective="Slavic"
+	name={
+		key="Slavic Federation"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Slavic"
+					literal=yes
+				}
+			}
+
+		}
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_representative_democracy"
-	advisor_voice_type="l_the_worker"
-	planet_name="Khrabrost"
+	advisor_voice_type="l_the_diplomat"
+	planet_name={
+		key="Khrabrost"
+		literal=yes
+	}
 	planet_class="pc_continental"
-	system_name="Novaya Zvezda"
+	system_name={
+		key="Novaya Zvezda"
+		literal=yes
+	}
 	initializer=""
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
@@ -48,12 +76,18 @@
 	}
 	ruler={
 		gender=male
-		name="Vadim Kozlov"
+		name={
+			full_names={
+				key="Vadim Kozlov"
+				literal=yes
+			}
+		}
 		portrait="human_male_04"
 		texture=0
-		hair=21
+		attachment=73
 		clothes=2
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

@@ -1,32 +1,46 @@
-"Republic of Italy"
-={
+"Republic of Italy"={
 	key="Republic of Italy"
-	ship_prefix="RIS"
+	ship_prefix={
+		key="RIS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Italians"
-		adjective="Italian"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_italian"
 		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_thrifty"
-		trait="ui_trait_creative"
-		trait="ui_trait_very_demanding"
-		trait="ui_trait_urban"
+		trait="trait_conformists"
+		trait="trait_traditional"
+		trait="trait_sedentary"
 	}
-	name="Republic of Italy"
-	adjective="Italian"
+	name={
+		key="Republic of Italy"
+	}
+	adjective={
+		key="Italian"
+	}
 	authority="auth_democratic"
 	flags={
 		"human_1"
 		"custom_start_screen"
 	}
 	government="gov_direct_democracy"
-	planet_name="Torre"
+	advisor_voice_type="l_the_diplomat"
+	planet_name={
+		key="Torre"
+	}
 	planet_class="pc_continental"
-	system_name="Stella"
+	system_name={
+		key="Stella"
+	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
@@ -37,7 +51,7 @@
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="flag_BG_18.dds"
 		}
 		colors={
 			"green"
@@ -48,12 +62,25 @@
 	}
 	ruler={
 		gender=male
-		name="Manfredo Costa"
+		name={
+			full_names={
+				key="Manfredo Costa"
+			}
+		}
 		portrait="human_male_01"
 		texture=0
-		hair=45
+		attachment=45
 		clothes=2
-		leader_class="ruler"
+		ruler_title={
+			key="President"
+			literal=yes
+		}
+		ruler_title_female={
+			key="President"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

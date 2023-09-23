@@ -1,21 +1,32 @@
-"Japanese Empire"
-={
+"Japanese Empire"={
 	key="Japanese Empire"
-	ship_prefix="JES"
+	ship_prefix={
+		key="JES"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Japanese"
-		adjective="Japanese"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_japanese"
 		gender=not_set
 		trait="trait_conformists"
 		trait="trait_traditional"
 		trait="trait_sedentary"
 	}
-	name="Japanese Empire"
-	adjective="Japanese"
+	name={
+		key="Japanese Empire"
+	}
+	adjective={
+		key="Japanese"
+	}
 	authority="auth_imperial"
 	flags={
 		"human_1"
@@ -23,9 +34,13 @@
 	}
 	government="gov_martial_empire"
 	advisor_voice_type="l_militarist"
-	planet_name="Kyoto"
+	planet_name={
+		key="Kyoto"
+	}
 	planet_class="pc_continental"
-	system_name="Amaterasu"
+	system_name={
+		key="Amaterasu"
+	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
@@ -47,12 +62,17 @@
 	}
 	ruler={
 		gender=male
-		name="Norinaga"
+		name={
+			full_names={
+				key="Norinaga"
+			}
+		}
 		portrait="human_male_02"
 		texture=0
-		hair=12
+		attachment=25
 		clothes=6
-		leader_class="ruler"
+		trait="leader_trait_fleet_organizer"
+		leader_class="admiral"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

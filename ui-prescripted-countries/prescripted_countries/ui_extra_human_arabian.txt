@@ -1,22 +1,34 @@
-"United Arab Emirates"
-={
+"United Arab Emirates"={
 	key="United Arab Emirates"
-	ship_prefix="UAS"
+	ship_prefix={
+		key="UAS"
+	}
 	species={
 		class="HUM"
 		portrait="human"
-		name="Human"
-		plural="Arabs"
-		adjective="Arab"
+		species_name={
+			key="Human"
+		}
+		species_plural={
+			key="Humans"
+		}
+		species_adjective={
+			key="Human"
+		}
 		name_list="ui_extra_humans_arabic"
 		gender=not_set
 		trait="trait_traditional"
 		trait="trait_nomadic"
 		trait="trait_deviants"
 		trait="trait_decadent"
+		trait="trait_thrifty"
 	}
-	name="United Arab Emirates"
-	adjective="Arab"
+	name={
+		key="United Arab Emirates"
+	}
+	adjective={
+		key="Arab"
+	}
 	authority="auth_imperial"
 	flags={
 		"human_1"
@@ -24,9 +36,13 @@
 	}
 	government="gov_enlightened_monarchy"
 	advisor_voice_type="l_spiritualist"
-	planet_name="Ard"
+	planet_name={
+		key="Ard"
+	}
 	planet_class="pc_desert"
-	system_name="Ra"
+	system_name={
+		key="Ra"
+	}
 	initializer=""
 	graphical_culture="humanoid_01"
 	city_graphical_culture="arthropoid_01"
@@ -48,21 +64,32 @@
 	}
 	ruler={
 		gender=male
-		name="Rashad Qudsi"
+		name={
+			full_names={
+				key="Rashad Qudsi"
+			}
+		}
 		portrait="human_male_03"
 		texture=0
-		hair=19
+		attachment=36
 		clothes=3
-		ruler_title="Emir"
-		ruler_title_female="Emir"
-		leader_class="ruler"
+		ruler_title={
+			key="Emir"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Emir"
+			literal=yes
+		}
+		trait="trait_ruler_industrialist"
+		leader_class="governor"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=yes
-	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_philosopher_king"
 		"civic_merchant_guilds"

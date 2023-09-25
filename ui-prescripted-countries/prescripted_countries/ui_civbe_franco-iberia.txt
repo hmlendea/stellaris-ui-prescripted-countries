@@ -7,15 +7,13 @@
 		class="HUM"
 		portrait="human"
 		species_name={
-			key="Human"
+			key="PRESCRIPTED_species_name_humans1"
 		}
 		species_plural={
-			key="Humans"
-			literal=yes
+			key="PRESCRIPTED_species_name_humans1"
 		}
 		species_adjective={
-			key="Human"
-			literal=yes
+			key="PRESCRIPTED_species_name_humans1"
 		}
 		name_list="ui_extra_humans_franco-iberian"
 		gender=not_set

@@ -41,6 +41,12 @@ See the [contributing guidelines](./CONTRIBUTING.md) for details on how to repor
 
 See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
 
+## 🔒 Security
+
+Universum Infinitum: Prescripted Countries follows a coordinated disclosure policy for security concerns. As a content-only Stellaris mod with no executable code, the attack surface is limited to mod content integrity and distribution channels.
+
+For information on reporting security vulnerabilities, see [SECURITY.md](./SECURITY.md).
+
 # Universul Unfinitum Collection
 
  - [Character Traits](https://github.com/hmlendea/stellaris-ui-character-traits)

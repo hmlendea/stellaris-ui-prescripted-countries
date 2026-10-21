@@ -24,14 +24,18 @@ It is actively tested (and developed) on **Linux**, where it is guaranteed to wo
 
 It should also be compatible with any other mods.
 
-# Contributions
+## 🤝 Contributing
 
-You are welcome to bring any suggestion, feedback or modification to this project.
+You are welcome to submit any suggestion, feedback, or modification to this
+project.
 
-Here are a few ways in which you can do so:
- - Commenting directly on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2048949837) or [Nexus](https://nexusmods.com/stellaris/mods/89) pages
- - Raising a new [issue](https://github.com/hmlendea/stellaris-ui-prescripted-countries/issues) for this project
- - Creating a git pull request _(This requires git knowledge)_
+When doing so, please:
+- Maintain cross-platform compatibility
+- Submit focused pull requests that conform to the existing code style
+- Maintain your branch synchronised with `master`
+- Raise a new [issue](https://github.com/hmlendea/stellaris-ui-prescripted-countries/issues) for problems or suggestions
+
+See the [contributing guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
 
 # Universul Unfinitum Collection
 

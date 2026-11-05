@@ -287,6 +287,21 @@ Material coverage gaps:
 - [SECURITY.md](./SECURITY.md) — Coordinated disclosure policy, security scope for content-only mod.
 - [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) — Community standards.
 - [PRIVACY.md](./PRIVACY.md) — Data handling (none collected).
+- [Documentation Index](./docs/INDEX.md) — Master index with navigation by audience and task.
+- [Repository Overview](./docs/repository-overview.md) — Purpose, scope, entry points, country catalogue.
+- [Repository Structure](./docs/repository-structure.md) — Source tree, module organisation, file inventory.
+- [Architecture (docs/)](./docs/architecture.md) — Complements this document; data flows, invariants, Mermaid diagrams.
+- [Data Model](./docs/data-model.md) — Complete field reference (40+ fields), cross-mod table.
+- [Components](./docs/components.md) — Deep dives: mod descriptor, country definitions, localisation.
+- [Flows](./docs/flows.md) — End-to-end: mod load, empire selection, galaxy generation.
+- [Behaviour](./docs/behaviour.md) — User-facing: browse/select, preview details.
+- [Dependencies](./docs/dependencies.md) — 3 required mods, cross-mod references, failure modes.
+- [Change Guide](./docs/change-guide.md) — Add/modify/remove empires, version updates.
+- [Testing](./docs/testing.md) — Manual verification checklist.
+- [Build & Deployment](./docs/build-and-deployment.md) — 4 channels, versioning, rollback.
+- [Quick Start](./docs/quick-start.md) — Player installation, contributor setup.
+- [FAQ](./docs/faq.md) — General, installation, gameplay, development.
+- [Troubleshooting](./docs/troubleshooting.md) — Symptom-cause-fix tables, debug steps.
 - [UI Flags Mod](https://github.com/hmlendea/stellaris-ui-flags) — Flag icons and backgrounds dependency.
 - [UI Name Lists Mod](https://github.com/hmlendea/stellaris-ui-name-lists) — Name lists dependency.
 - [UI Species Traits Mod](https://github.com/hmlendea/stellaris-ui-species-traits) — Species traits dependency.

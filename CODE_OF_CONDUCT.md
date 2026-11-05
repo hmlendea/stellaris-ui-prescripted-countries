@@ -59,3 +59,9 @@ People who make a report in good faith will not be penalised for reporting. A re
 ## 🙏 Acknowledgement
 
 This template is original project guidance informed by established open-source community practices, including themes found in the Contributor Covenant. It is not a reproduction of the Contributor Covenant.
+
+## 📚 Related Documentation
+
+- [Contributing](./CONTRIBUTING.md) — Issue reporting, pull request process.
+- [Security](./SECURITY.md) — Vulnerability reporting.
+- [Documentation Index](./docs/INDEX.md) — Master index with navigation by audience and task.

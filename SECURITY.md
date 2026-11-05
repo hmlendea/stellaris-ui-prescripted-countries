@@ -62,3 +62,10 @@ If your research is conducted in good faith, confined to authorised scope, and d
 ## 🙏 Recognition
 
 We appreciate responsible disclosure. Reporters who desire public attribution may be acknowledged in release notes, advisories, or a dedicated acknowledgements section.
+
+## 📚 Related Documentation
+
+- [Security (docs/)](./docs/security.md) — Detailed security model, supply chain, multiplayer considerations.
+- [Dependencies](./docs/dependencies.md) — Required mods and cross-mod reference integrity.
+- [Build & Deployment](./docs/build-and-deployment.md) — Distribution channels, checksums, rollback.
+- [Architecture](./docs/architecture.md) — Integration boundaries, dependency direction.

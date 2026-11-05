@@ -68,9 +68,19 @@ cd stellaris-ui-prescripted-countries
 
 ### Documentation
 
-- Revise relevant docs for changes.
+- Revise relevant docs for changes. See [Documentation Maintenance](./docs/documentation-maintenance.md) for update triggers and review checklist.
 - Follow the documentation style guide.
 - Preview changes locally if possible.
+
+### Key Documentation for Contributors
+
+| Document | Purpose |
+|----------|---------|
+| [Change Guide](./docs/change-guide.md) | Add/modify/remove empires, version updates, dependency updates |
+| [Testing](./docs/testing.md) | Manual verification checklist |
+| [Data Model](./docs/data-model.md) | Complete field reference for country definitions |
+| [Components](./docs/components.md) | Deep dives on mod descriptor, country definitions, localisation |
+| [Documentation Maintenance](./docs/documentation-maintenance.md) | Update triggers, review checklist, versioning |
 
 ## 📋 Code of Conduct
 

@@ -62,3 +62,9 @@ Update this document when application data flows, storage, integrations, or depl
 For questions about application data handling, contact the project maintainers. For a self-hosted instance, contact the instance operator, unless the project explicitly handles the request. Include the repository name, mod version, and distribution channel, if relevant; do not send passwords, access tokens, or other secrets.
 
 Project maintainer contact: [GitHub issue tracker](https://github.com/hmlendea/stellaris-ui-prescripted-countries/issues).
+
+## 📚 Related Documentation
+
+- [Security](./docs/security.md) — Security model, supply chain, no attack surface.
+- [Architecture](./docs/architecture.md) — Data flows, integration boundaries.
+- [State & Persistence](./docs/state-and-persistence.md) — Save game compatibility, no personal data in saves.

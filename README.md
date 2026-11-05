@@ -134,11 +134,26 @@ See the [architecture documentation](./ARCHITECTURE.md) for the system context, 
 
 ## 📚 Documentation
 
-The project wiki lists the countries included in the mod.
+Comprehensive documentation is available in the [`docs/`](./docs/) directory.
 
 | Resource | Description |
 |----------|-------------|
-| [Country additions](https://github.com/hmlendea/stellaris-ui-prescripted-countries/wiki/Additions) | Prescripted countries included in the mod. |
+| [Documentation Index](./docs/INDEX.md) | Master index with navigation by audience and task |
+| [Repository Overview](./docs/repository-overview.md) | Purpose, scope, entry points, country catalogue |
+| [Repository Structure](./docs/repository-structure.md) | Source tree, module organisation, file inventory |
+| [Architecture](./docs/architecture.md) | Complements root ARCHITECTURE.md; data flows, invariants |
+| [Data Model](./docs/data-model.md) | Complete field reference (40+ fields), cross-mod table |
+| [Components](./docs/components.md) | Deep dives: mod descriptor, country definitions, localisation |
+| [Flows](./docs/flows.md) | End-to-end: mod load, empire selection, galaxy generation |
+| [Behaviour](./docs/behaviour.md) | User-facing: browse/select, preview details |
+| [Dependencies](./docs/dependencies.md) | 3 required mods, cross-mod references, failure modes |
+| [Change Guide](./docs/change-guide.md) | Add/modify/remove empires, version updates |
+| [Testing](./docs/testing.md) | Manual verification checklist |
+| [Build & Deployment](./docs/build-and-deployment.md) | 4 channels, versioning, rollback |
+| [Quick Start](./docs/quick-start.md) | Player installation, contributor setup |
+| [FAQ](./docs/faq.md) | General, installation, gameplay, development |
+| [Troubleshooting](./docs/troubleshooting.md) | Symptom-cause-fix tables, debug steps |
+| [Country additions](https://github.com/hmlendea/stellaris-ui-prescripted-countries/wiki/Additions) | Prescripted countries included in the mod (wiki) |
 
 ## 🤝 Contributing
 

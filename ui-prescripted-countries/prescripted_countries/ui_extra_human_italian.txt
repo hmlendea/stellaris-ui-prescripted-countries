@@ -80,7 +80,7 @@
 			literal=yes
 		}
 		trait="trait_ruler_charismatic"
-		leader_class="admiral"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

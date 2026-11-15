@@ -42,7 +42,7 @@ Each file in `prescripted_countries/` defines one empire template. The top-level
 | `ruler.attachment` | integer | Yes | Attachment index. |
 | `ruler.clothes` | integer | Yes | Clothes index. |
 | `ruler.trait` | string | Yes | Ruler trait key from base game. |
-| `ruler.leader_class` | enum | Yes | `governor`, `general`, `admiral`, `scientist`, `ruler`. |
+| `ruler.leader_class` | enum | Yes | `official`, `commander`, `scientist` (4.x leader classes; legacy `governor`/`general`/`admiral` were replaced in Stellaris 4.0). |
 | `ruler.ruler_title.key` | string | No | Custom ruler title (with `literal=yes`). |
 | `ruler.ruler_title_female.key` | string | No | Female ruler title. |
 | `ruler.heir_title.key` | string | No | Heir title. |
@@ -98,7 +98,7 @@ Paths: `ui-prescripted-countries.mod`, `ui-prescripted-countries/descriptor.mod`
 | `name` | string | Display name in launcher. |
 | `path` | string | Filesystem path to mod content. |
 | `tags` | object | Tag set; currently `{ "Galaxy Generation" }`. |
-| `supported_version` | string | Stellaris version pattern (e.g., `3.9.*`). |
+| `supported_version` | string | Stellaris version pattern (e.g., `v4.5.*`). |
 
 ## Cross-Mod References
 

@@ -74,7 +74,7 @@
 			literal=yes
 		}
 		trait="trait_ruler_logistic_understanding"
-		leader_class="governor"
+		leader_class="official"
 	}
 	spawn_as_fallen=yes
 	ignore_portrait_duplication=no

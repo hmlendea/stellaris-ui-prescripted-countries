@@ -46,7 +46,7 @@ Examples: `ui_civbe_africa.txt`, `ui_elderscrolls_aldmeri.txt`, `ui_extra_human_
 ## Updating for New Stellaris Version
 
 1. Test mod with new Stellaris version (beta branch if available)
-2. Update `supported_version` in both descriptor files (e.g., `3.10.*`)
+2. Update `supported_version` in both descriptor files (e.g., `v4.6.*`)
 3. Check for deprecated/changed empire template fields in patch notes
 4. Update any affected country definitions
 5. Run [Testing](../testing.md) checklist

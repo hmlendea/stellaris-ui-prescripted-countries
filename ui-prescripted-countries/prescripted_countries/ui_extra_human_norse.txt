@@ -72,7 +72,7 @@
 		attachment=12
 		clothes=5
 		trait="trait_ruler_warlike"
-		leader_class="admiral"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

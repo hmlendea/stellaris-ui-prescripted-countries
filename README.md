@@ -49,7 +49,7 @@ Enable this mod and its required companion mods in the Stellaris launcher. Start
 
 ## ⚠️ Known Limitations
 
-- The mod metadata declares compatibility with Stellaris 3.9.*; compatibility with other game versions is not specified.
+- The mod metadata declares compatibility with Stellaris 4.5.*; compatibility with other game versions is not specified.
 - English is the only localisation included in this repository, and some country descriptions remain marked `TODO.`.
 
 ## 📦 Installation
@@ -80,7 +80,7 @@ The repository includes English localisation strings for country names and descr
 
 | Component | Supported Versions | Notes |
 |-----------|--------------------|-------|
-| Stellaris | 3.9.* | Required game; version declared by the mod metadata |
+| Stellaris | 4.5.* | Required game; version declared by the mod metadata |
 | Universum Infinitum - Flags | Not version-pinned | Required companion mod |
 | Universum Infinitum - Name Lists | Not version-pinned | Required companion mod |
 | Universum Infinitum - Species Traits | Not version-pinned | Required companion mod |
@@ -89,7 +89,7 @@ The repository includes English localisation strings for country names and descr
 
 | Integration | Compatibility | Purpose | Required |
 |-------------|---------------|---------|----------|
-| Stellaris | 3.9.* | Loads the mod content and provides the game environment. | Yes |
+| Stellaris | 4.5.* | Loads the mod content and provides the game environment. | Yes |
 | [Universum Infinitum - Flags](https://github.com/hmlendea/stellaris-ui-flags) | Not version-pinned | Provides custom flag assets referenced by country definitions. | Yes |
 | [Universum Infinitum - Name Lists](https://github.com/hmlendea/stellaris-ui-name-lists) | Not version-pinned | Provides name lists referenced by country definitions. | Yes |
 | [Universum Infinitum - Species Traits](https://github.com/hmlendea/stellaris-ui-species-traits) | Not version-pinned | Provides species traits referenced by country definitions. | Yes |

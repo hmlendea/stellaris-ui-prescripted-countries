@@ -85,7 +85,7 @@
 		attachment=73
 		clothes=2
 		trait="leader_trait_fleet_organizer"
-		leader_class="admiral"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

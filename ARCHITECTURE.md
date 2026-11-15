@@ -109,7 +109,7 @@ Paths:
 - `ui-prescripted-countries/descriptor.mod` (inside mod folder, for workshop/Paradox Mods)
 
 Responsibilities:
-- Declares mod identity, version, supported game version (`3.9.*`), and tags.
+- Declares mod identity, version, supported game version (`v4.5.*`), and tags.
 - Lists required dependencies: UI Flags, UI Name Lists, UI Species Traits.
 - Provides filesystem path for the mod content.
 
@@ -213,7 +213,7 @@ The principal dependency rules are:
 
 | Dependency | Responsibility | Integration Boundary | Architectural Consequence |
 |------------|----------------|----------------------|---------------------------|
-| `Stellaris Base Game (v3.9.*)` | Engine, base assets, script parser, localisation system, empire template application | Mod descriptor `supported_version`, script API, asset identifiers | Version gate; breaking changes in 3.10+ may require updates |
+| `Stellaris Base Game (v4.5.*)` | Engine, base assets, script parser, localisation system, empire template application | Mod descriptor `supported_version`, script API, asset identifiers | Version gate; breaking changes in future releases may require updates |
 | `UI Flags Mod` (Workshop 2048949836) | Custom flag icons (`ui_civbe/*`, `ui_elderscrolls/*`, `ui_galciv/*`, `ui_starcraft/*`) and backgrounds | Referenced by `empire_flag.icon.category/file` and `empire_flag.background.category/file` in country definitions | Missing mod → flags render as generic placeholders |
 | `UI Name Lists Mod` (Workshop 2048949838) | Name lists for ships, planets, rulers, fleets (`ui_extra_humans_*`, `ui_civbe_*`, `ui_elderscrolls_*`, `ui_galciv_*`, `ui_starcraft_*`) | Referenced by `species.name_list` in country definitions | Missing mod → names fall back to base game defaults |
 | `UI Species Traits Mod` (Workshop 2048949839) | Custom species traits referenced by countries | Referenced by `species.trait` in country definitions | Missing mod → trait validation fails; empire may not spawn |
@@ -235,7 +235,7 @@ The principal dependency rules are:
 
 | Contract | Owner | Invariant | Verification | Change Policy |
 |----------|-------|-----------|--------------|---------------|
-| `supported_version` in descriptor | This mod | Must match current Stellaris major.minor (e.g., `3.9.*`) | Launcher validation; CI can check against known versions | Update on each Stellaris major release; patch versions wildcarded |
+| `supported_version` in descriptor | This mod | Must match current Stellaris major.minor (e.g., `v4.5.*`) | Launcher validation; CI can check against known versions | Update on each Stellaris major release; patch versions wildcarded |
 | Country definition keys | This mod | Unique `key` per country; stable across versions | Engine rejects duplicates at load | Never rename keys; add new countries only |
 | Name list keys | UI Name Lists Mod | Keys referenced by `species.name_list` must exist | Engine logs missing name list warning | Coordinate with Name Lists mod for new keys |
 | Trait keys | UI Species Traits Mod | Keys referenced by `species.trait` must exist | Engine validates at empire creation | Coordinate with Species Traits mod for new traits |
@@ -257,7 +257,7 @@ Execute the principal automated verification with:
 ```bash
 # No automated verification commands exist.
 # Manual verification steps:
-# 1. Install Stellaris (v3.9.x)
+# 1. Install Stellaris (v4.5.x)
 # 2. Subscribe to required mods on Steam Workshop (or install manually)
 # 3. Enable all four mods in launcher
 # 4. Launch game → New Game → Empire Selection

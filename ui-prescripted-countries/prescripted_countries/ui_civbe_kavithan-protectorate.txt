@@ -95,7 +95,7 @@
 			literal=yes
 		}
 		trait="leader_trait_principled"
-		leader_class="governor"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

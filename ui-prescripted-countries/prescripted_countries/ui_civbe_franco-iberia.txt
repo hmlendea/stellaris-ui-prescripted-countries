@@ -94,7 +94,7 @@
 			literal=yes
 		}
 		trait="trait_ruler_eye_for_talent"
-		leader_class="governor"
+		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes

@@ -1,7 +1,7 @@
-version="1.2.2"
+version="1.3.0"
 name="Universum Infinitum: Prescripted Countries"
 path="mod/ui-prescripted-countries"
 tags={
     "Galaxy Generation"
 }
-supported_version="3.9.*"
+supported_version="v4.5.*"

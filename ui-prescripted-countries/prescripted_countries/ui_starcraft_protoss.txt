@@ -71,7 +71,7 @@
 		attachment=0
 		clothes=4
 		trait="trait_ruler_logistic_understanding"
-		leader_class="admiral"
+		leader_class="commander"
 	}
 	spawn_as_fallen=yes
 	ignore_portrait_duplication=yes

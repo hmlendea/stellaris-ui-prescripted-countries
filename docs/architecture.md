@@ -24,7 +24,7 @@ Paths:
 - `ui-prescripted-countries.mod`
 - `ui-prescripted-countries/descriptor.mod`
 
-The descriptor is the load-time contract with the engine. It declares `version`, `name`, `path`, `tags`, and `supported_version`. The engine validates `supported_version` (`3.9.*`) against the installed game and rejects the mod on mismatch.
+The descriptor is the load-time contract with the engine. It declares `version`, `name`, `path`, `tags`, and `supported_version`. The engine validates `supported_version` (`v4.5.*`) against the installed game and rejects the mod on mismatch.
 
 Boundary rules:
 - The two descriptor files must carry identical content.

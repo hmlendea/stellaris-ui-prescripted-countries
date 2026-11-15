@@ -14,7 +14,7 @@ sequenceDiagram
     participant Deps
 
     Launcher->>Engine: Read ui-prescripted-countries.mod
-    Engine->>Engine: Validate supported_version="3.9.*"
+    Engine->>Engine: Validate supported_version="v4.5.*"
     alt Version mismatch
         Engine-->>Launcher: Disable mod, show error
     else Version match

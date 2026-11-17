@@ -31,7 +31,7 @@ A: Yes. Select them in the empire selection screen when starting a new game.
 A: Yes, all 26 have `spawn_enabled=yes` and can appear as AI empires.
 
 **Q: What are fallen empires?**
-A: Drengin Empire and Protoss Empire have `spawn_as_fallen=yes` and can spawn as ancient fallen empires if the galaxy setting allows.
+A: Sovereign Argonian Confederation, Drengin Empire, Krynn Syndicate, and Protoss Empire have `spawn_as_fallen=yes` and can spawn as ancient fallen empires if the galaxy setting allows.
 
 **Q: Can I customise a prescripted empire?**
 A: Not directly. Create a custom empire in-game if you want to modify one.

@@ -16,7 +16,7 @@ This mod has no automated tests. It is pure data consumed by the Stellaris engin
 | Localisation resolve | Select each empire in turn | No raw keys in UI |
 | Flag render | Select each empire in turn | Custom flag visible |
 | AI spawn | Start game with max AI empires | Mod empires appear as AI |
-| Fallen empire | Start game with fallen empires enabled | Drengin/Protoss can spawn as fallen |
+| Fallen empire | Start game with fallen empires enabled | Argonian/Drengin/Krynn/Protoss can spawn as fallen |
 | Save/load | Save game, reload | No corruption, empires persist |
 | Multiplayer | Host game with mod | All players see same empires |
 

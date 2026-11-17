@@ -1,111 +1,64 @@
-"Franco-Iberia"={
-	key="Franco-Iberia"
-	ship_prefix={
-		key="FIS"
+ui_civbe_franco_iberia = {
+	name = "EMPIRE_DESIGN_ui_civbe_franco_iberia"
+	adjective = "EMPIRE_DESIGN_ui_civbe_franco_iberia_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_civbe_franco_iberia_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_civbe_franco_iberia_species_name"
+		plural = "ui_civbe_franco_iberia_species_plural"
+		adjective = "ui_civbe_franco_iberia_species_adjective"
+		name_list = "ui_extra_humans_franco-iberian"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_charismatic"
+		trait = "trait_natural_sociologists"
+		trait = "trait_slow_breeders"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_fanatic_befrienders_room"
+	authority = "auth_democratic"
+	government = gov_direct_democracy
+	origin = "origin_lost_colony"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_materialist"
+	planet_name = "ui_civbe_franco_iberia_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_civbe_franco_iberia_system_name"
+	initializer = ""
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civbe"
+			file = "ui_francoiberia.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "ui_sides.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_franco-iberian"
-		gender=not_set
-		trait="trait_traditional"
-		trait="trait_charismatic"
-		trait="trait_natural_sociologists"
-		trait="trait_slow_breeders"
-	}
-	name={
-		key="Franco-Iberia"
-		literal=yes
-	}
-	adjective={
-		key="%ADJ%"
-		variables={
-			{
-				key="adjective"
-				value={
-					key="Franco-Iberian"
-					literal=yes
-				}
-			}
-
-		}
-	}
-	authority="auth_democratic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_direct_democracy"
-	advisor_voice_type="l_the_technocrat"
-	planet_name={
-		key="Le Coeur"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Étincelle"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="ui_civbe"
-			file="ui_francoiberia.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_sides.dds"
-		}
-		colors={
+		colors = {
 			"blue"
 			"light_blue"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=female
-		name={
-			full_names={
-				key="Élodie Duchaine"
-			}
-		}
-		portrait="human_female_04"
-		texture=2
-		attachment=4
-		clothes=3
-		ruler_title={
-			key="President"
-			literal=yes
-		}
-		ruler_title_female={
-			key="President"
-			literal=yes
-		}
-		trait="trait_ruler_eye_for_talent"
-		leader_class="governor"
+	ruler = {
+		gender = female
+		name = "ui_civbe_franco_iberia_ruler_name"
+		portrait = "human_female_04"
+		texture = 2
+		attachment = 4
+		clothes = 3
+		ruler_title = "ui_civbe_franco_iberia_ruler_title"
+		ruler_title_female = "ui_civbe_franco_iberia_ruler_title_female"
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_fanatic_befrienders_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic="ethic_xenophile"
-	ethic="ethic_materialist"
-	civics={
-		"civic_beacon_of_liberty"
-		"civic_meritocracy"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_the_technocrat"
 }

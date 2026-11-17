@@ -14,7 +14,7 @@ sequenceDiagram
     participant Deps
 
     Launcher->>Engine: Read ui-prescripted-countries.mod
-    Engine->>Engine: Validate supported_version="3.9.*"
+    Engine->>Engine: Validate supported_version="v4.5.*"
     alt Version mismatch
         Engine-->>Launcher: Disable mod, show error
     else Version match
@@ -53,7 +53,7 @@ sequenceDiagram
 
 - All 3 dependencies loaded before this mod.
 - All 26 country files parsed (or parse error logged).
-- Every non-literal key resolved to localisation string.
+- Every referenced localisation key resolved to a display string.
 - No duplicate empire keys across all loaded mods.
 
 ## Related Documentation

@@ -22,7 +22,7 @@ path="mod/ui-prescripted-countries"
 tags={
     "Galaxy Generation"
 }
-supported_version="3.9.*"
+supported_version="v4.5.*"
 ```
 
 | Field | Description | Update policy |
@@ -31,7 +31,7 @@ supported_version="3.9.*"
 | `name` | Display name in launcher. | Stable; change only for rebranding. |
 | `path` | Filesystem path relative to Stellaris mod directory. | Must match folder name. |
 | `tags` | Categorisation tags for launcher filtering. | Add tags as appropriate; do not remove existing. |
-| `supported_version` | Stellaris version pattern the mod targets. | Update for each Stellaris major/minor release (e.g., `3.10.*`). |
+| `supported_version` | Stellaris version pattern the mod targets. | Update for each Stellaris major/minor release (e.g., `v4.6.*`). |
 
 ## Engine Behaviour
 
@@ -44,7 +44,7 @@ supported_version="3.9.*"
 ## Invariants
 
 - Both descriptor files are byte-for-byte identical.
-- `supported_version` uses wildcard patch (`3.9.*`).
+- `supported_version` uses wildcard patch (`v4.5.*`).
 - `path` matches the mod folder name exactly.
 
 ## Related Documentation

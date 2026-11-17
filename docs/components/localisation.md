@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Maps localisation keys to English display strings. The Stellaris engine resolves every non-literal `name`, `adjective`, `planet_name`, `system_name`, `ship_prefix`, and `species_bio` through this file.
+Maps localisation keys to English display strings. The Stellaris engine resolves every `name`, `adjective`, `planet_name`, `system_name`, `ship_prefix`, species name/plural/adjective, and ruler name/title through this file.
 
 ## File
 
@@ -12,44 +12,57 @@ Maps localisation keys to English display strings. The Stellaris engine resolves
 
 ```yaml
 l_english:
-  EMPIRE_DESIGN_<key>: "<Display Name>"
-  EMPIRE_DESIGN_<key>_ADJ: "<Adjective>"
-  EMPIRE_DESIGN_<key>_PLANET: "<Homeworld Name>"
-  EMPIRE_DESIGN_<key>_SYSTEM: "<System Name>"
-  EMPIRE_DESIGN_<key>_SHIP_PREFIX: "<Ship Prefix>"
-  EMPIRE_DESIGN_<key>_SPECIES_BIO: "<Flavour Text>"
+  EMPIRE_DESIGN_<empire_key>:0 "<Display Name>"
+  EMPIRE_DESIGN_<empire_key>_desc:0 "<Description>"
+  EMPIRE_DESIGN_<empire_key>_adj:0 "<Adjective>"
+  <empire_key>_species_name:0 "<Species>"
+  <empire_key>_species_plural:0 "<Species plural>"
+  <empire_key>_species_adjective:0 "<Species adjective>"
+  <empire_key>_planet_name:0 "<Homeworld Name>"
+  <empire_key>_system_name:0 "<System Name>"
+  <empire_key>_ship_prefix:0 "<Ship Prefix>"
+  <empire_key>_ruler_name:0 "<Ruler Name>"
+  <empire_key>_ruler_title:0 "<Ruler Title>"
+  <empire_key>_ruler_title_female:0 "<Female Ruler Title>"
 ```
 
 ## Key Naming Convention
 
-| Field in country definition | Localisation key suffix |
-|----------------------------|------------------------|
-| `name` | `_` (base key) |
-| `adjective` | `_ADJ` |
-| `planet_name` | `_PLANET` |
-| `system_name` | `_SYSTEM` |
-| `ship_prefix` | `_SHIP_PREFIX` |
-| `species_bio` | `_SPECIES_BIO` |
+| Field in country definition | Localisation key pattern |
+|----------------------------|--------------------------|
+| `name` | `EMPIRE_DESIGN_<empire_key>` |
+| `adjective` | `EMPIRE_DESIGN_<empire_key>_adj` |
+| `species.name` | `<empire_key>_species_name` |
+| `species.plural` | `<empire_key>_species_plural` |
+| `species.adjective` | `<empire_key>_species_adjective` |
+| `planet_name` | `<empire_key>_planet_name` |
+| `system_name` | `<empire_key>_system_name` |
+| `ship_prefix` | `<empire_key>_ship_prefix` |
+| `ruler.name` | `<empire_key>_ruler_name` |
+| `ruler.ruler_title` | `<empire_key>_ruler_title` |
+| `ruler.ruler_title_female` | `<empire_key>_ruler_title_female` |
 
-Base key format: `EMPIRE_DESIGN_<UPPERCASE_EMPIRE_KEY>`
+`empire_key` is the filename stem with hyphens replaced by underscores, for example `ui_civbe_franco_iberia`.
 
-Example: `ui_civbe_africa.txt` → `EMPIRE_DESIGN_PEOPLES_AFRICAN_UNION`
+## Shared Human Strings
+
+Human-derived designs reuse vanilla species strings through `$KEY$` indirection:
+
+```yaml
+ ui_civbe_africa_species_name:0 "$PRESCRIPTED_species_name_humans1$"
+ ui_civbe_africa_species_plural:0 "$PRESCRIPTED_species_plural_humans1$"
+ ui_civbe_africa_species_adjective:0 "$PRESCRIPTED_species_adjective_humans1$"
+```
 
 ## Coverage
 
 All 26 countries have entries for:
-- `name` (base key)
-- `adjective` (`_ADJ`)
-- `planet_name` (`_PLANET`)
-- `system_name` (`_SYSTEM`)
-- `ship_prefix` (`_SHIP_PREFIX`)
+- `name` and `adjective`
+- species name, plural, and adjective
+- `planet_name`, `system_name`, `ship_prefix`
+- `ruler_name`, and ruler titles where defined
 
-Only some countries have `species_bio` (`_SPECIES_BIO`):
-- Aldmeri Dominion
-- Argonia
-- Arabian, Celtic, French, Hellenic, Italian, Japanese, Norse, Ottoman, Roman
-- Altarian Republic, Drengin Empire, Krynn Consulate, Torian Confederation, Yor Collective
-- Protoss Empire, Terran Dominion
+Description (`_desc`) entries exist for 5 countries only; the rest omit the key rather than declaring empty text.
 
 ## YAML Format Rules
 

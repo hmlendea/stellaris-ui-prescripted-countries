@@ -1,83 +1,59 @@
-"Terran Dominion"={
-	key="Terran Dominion"
-	ship_prefix={
-		key="TDS"
+ui_starcraft_terran = {
+	name = "EMPIRE_DESIGN_ui_starcraft_terran"
+	adjective = "EMPIRE_DESIGN_ui_starcraft_terran_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_starcraft_terran_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_starcraft_terran_species_name"
+		plural = "ui_starcraft_terran_species_plural"
+		adjective = "ui_starcraft_terran_species_adjective"
+		name_list = "ui_starcraft_human"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_nomadic"
+		trait = "trait_deviants"
+		trait = "trait_wasteful"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_decadent_hierarchy_room"
+	authority = "auth_imperial"
+	government = gov_star_empire
+	origin = "origin_lost_colony"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	planet_name = "ui_starcraft_terran_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_starcraft_terran_system_name"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_starcraft"
+			file = "flag_ui_starcraft_terran_dominion.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_starcraft_human"
-		gender=not_set
-		trait="trait_nomadic"
-		trait="trait_deviants"
-		trait="trait_wasteful"
-	}
-	name={
-		key="Terran Dominion"
-	}
-	adjective={
-		key="Terran"
-	}
-	authority="auth_imperial"
-	government="gov_star_empire"
-	planet_name={
-		key="Korhal"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Korhal"
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="ui_starcraft"
-			file="flag_ui_starcraft_terran_dominion.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"red"
 			"black"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Arcturus Mengsk"
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		attachment=25
-		clothes=6
-		trait="trait_ruler_warlike"
-		leader_class="admiral"
+	ruler = {
+		gender = male
+		name = "ui_starcraft_terran_ruler_name"
+		portrait = "human_male_03"
+		texture = 0
+		attachment = 25
+		clothes = 6
+		trait = "trait_ruler_warlike"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_decadent_hierarchy_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_militarist"
-	civics={
-		"civic_police_state"
-		"civic_nationalistic_zeal"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
 }

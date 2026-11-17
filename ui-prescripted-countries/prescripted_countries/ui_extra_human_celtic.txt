@@ -1,97 +1,63 @@
-"Celtic Confederation"={
-	key="Celtic Confederation"
-	ship_prefix={
-		key="CCS"
+ui_extra_human_celtic = {
+	name = "EMPIRE_DESIGN_ui_extra_human_celtic"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_celtic_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_celtic_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_celtic_species_name"
+		plural = "ui_extra_human_celtic_species_plural"
+		adjective = "ui_extra_human_celtic_species_adjective"
+		name_list = "ui_extra_humans_celtic"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_agrarian"
+		trait = "trait_nomadic"
+		trait = "trait_unruly"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_fanatic_befrienders_room"
+	authority = "auth_democratic"
+	government = gov_moral_democracy
+	origin = "origin_lost_colony"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_pacifist"
+	planet_name = "ui_extra_human_celtic_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_extra_human_celtic_system_name"
+	initializer = ""
+	graphical_culture = "plantoid_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_total-war"
+			file = "ui_rtw_gaul.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "ui_sides.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_celtic"
-		gender=not_set
-		trait="trait_traditional"
-		trait="trait_agrarian"
-		trait="trait_nomadic"
-		trait="trait_unruly"
-	}
-	name={
-		key="Celtic Confederation"
-	}
-	adjective={
-		key="Celtic"
-	}
-	authority="auth_democratic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_moral_democracy"
-	planet_name={
-		key="Alesia"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Bel"
-	}
-	initializer=""
-	graphical_culture="plantoid_01"
-	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
-			category="ui_total-war"
-			file="ui_rtw_gaul.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_sides.dds"
-		}
-		colors={
+		colors = {
 			"green"
 			"red"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Sean Mac Brádaigh"
-			}
-		}
-		portrait="human_male_02"
-		texture=0
-		attachment=78
-		clothes=4
-		ruler_title={
-			key="President"
-			literal=yes
-		}
-		ruler_title_female={
-			key="President"
-			literal=yes
-		}
-		trait="trait_ruler_industrialist"
-		leader_class="governor"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_celtic_ruler_name"
+		portrait = "human_male_02"
+		texture = 0
+		attachment = 78
+		clothes = 4
+		ruler_title = "ui_extra_human_celtic_ruler_title"
+		ruler_title_female = "ui_extra_human_celtic_ruler_title_female"
+		trait = "trait_ruler_industrialist"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_fanatic_befrienders_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	civics={
-		"civic_agrarian_idyll"
-		"civic_environmentalist"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
 }

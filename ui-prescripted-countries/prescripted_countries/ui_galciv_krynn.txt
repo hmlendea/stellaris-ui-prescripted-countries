@@ -1,90 +1,59 @@
-"Krynn Syndicate"={
-	key="Krynn Syndicate"
-	ship_prefix={
-		key="KSS"
+ui_galciv_krynn = {
+	name = "EMPIRE_DESIGN_ui_galciv_krynn"
+	adjective = "EMPIRE_DESIGN_ui_galciv_krynn_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = no
+	ship_prefix = "ui_galciv_krynn_ship_prefix"
+	species = {
+		class = "ART"
+		portrait = "art1"
+		name = "ui_galciv_krynn_species_name"
+		plural = "ui_galciv_krynn_species_plural"
+		adjective = "ui_galciv_krynn_species_adjective"
+		name_list = "ART3"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_charismatic"
 	}
-	species={
-		class="ART"
-		portrait="art1"
-		species_name={
-			key="Krynn"
+	room = "personality_evangelizing_zealots_room"
+	authority = "auth_corporate"
+	government = gov_subversive_cult
+	origin = "origin_default"
+	ethic = "ethic_militarist"
+	ethic = "ethic_fanatic_spiritualist"
+	planet_name = "ui_galciv_krynn_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_galciv_krynn_system_name"
+	initializer = ""
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	empire_flag = {
+		icon = {
+			category = "ui_galciv"
+			file = "flag_ui_galciv_krynn.dds"
 		}
-		species_plural={
-			key="Krynn"
+		background = {
+			category = "backgrounds"
+			file = "ui_star2.dds"
 		}
-		species_adjective={
-			key="Krynn"
-		}
-		species_bio="These guys are trying to bring order to the galaxy in the name of religion. Staunch Federalists, they usually have the cash to take advantage of whatever interspecies opportunities happen to come up."
-		name_list="ART3"
-		gender=not_set
-		trait="trait_charismatic"
-	}
-	name={
-		key="Krynn Syndicate"
-	}
-	adjective={
-		key="Krynn"
-	}
-	authority="auth_corporate"
-	government="gov_subversive_cult"
-	planet_name={
-		key="Kryseth"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Alora"
-	}
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
-			category="ui_galciv"
-			file="flag_ui_galciv_krynn.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_star2.dds"
-		}
-		colors={
+		colors = {
 			"dark_purple"
 			"light_orange"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=female
-		name={
-			full_names={
-				key="Ynrhed Eidden"
-			}
-		}
-		portrait="art1"
-		texture=1
-		attachment=0
-		clothes=0
-		ruler_title={
-			key="Consul"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Consul"
-			literal=yes
-		}
-		trait="trait_ruler_logistic_understanding"
-		leader_class="governor"
+	ruler = {
+		gender = female
+		name = "ui_galciv_krynn_ruler_name"
+		portrait = "art1"
+		texture = 1
+		attachment = 0
+		clothes = 0
+		ruler_title = "ui_galciv_krynn_ruler_title"
+		ruler_title_female = "ui_galciv_krynn_ruler_title_female"
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = official
 	}
-	spawn_as_fallen=yes
-	ignore_portrait_duplication=no
-	room="personality_evangelizing_zealots_room"
-	spawn_enabled=yes
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_spiritualist"
-	civics={
-		"civic_gospel_of_the_masses"
-		"civic_criminal_heritage"
-	}
-	origin="origin_default"
+	spawn_as_fallen = yes
 }

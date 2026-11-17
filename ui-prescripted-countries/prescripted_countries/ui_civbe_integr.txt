@@ -1,97 +1,63 @@
-"INTEGR"={
-	key="INTEGR"
-	ship_prefix={
-		key="IS"
+ui_civbe_integr = {
+	name = "EMPIRE_DESIGN_ui_civbe_integr"
+	adjective = "EMPIRE_DESIGN_ui_civbe_integr_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_civbe_integr_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_civbe_integr_species_name"
+		plural = "ui_civbe_integr_species_plural"
+		adjective = "ui_civbe_integr_species_adjective"
+		name_list = "ui_extra_humans_german"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_natural_engineers"
+		trait = "trait_adaptive"
+		trait = "trait_traditional"
+		trait = "trait_slow_breeders"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "machine_room"
+	authority = "auth_democratic"
+	government = gov_rational_consensus
+	origin = "origin_lost_colony"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_fanatic_materialist"
+	planet_name = "ui_civbe_integr_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_civbe_integr_system_name"
+	initializer = ""
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civbe"
+			file = "ui_integr.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_german"
-		gender=not_set
-		trait="trait_natural_engineers"
-		trait="trait_adaptive"
-		trait="trait_traditional"
-		trait="trait_slow_breeders"
-	}
-	name={
-		key="INTEGR"
-	}
-	adjective={
-		key="INTEGR"
-	}
-	authority="auth_democratic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_rational_consensus"
-	advisor_voice_type="l_the_technocrat"
-	planet_name={
-		key="Weltgeist"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Neustern"
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="ui_civbe"
-			file="ui_integr.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"burgundy"
 			"dark_green"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=female
-		name={
-			full_names={
-				key="Lena Ebner"
-			}
-		}
-		portrait="human_female_02"
-		texture=3
-		attachment=19
-		clothes=1
-		ruler_title={
-			key="Chancellor"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Chancellor"
-			literal=yes
-		}
-		trait="trait_ruler_eye_for_talent"
-		leader_class="scientist"
+	ruler = {
+		gender = female
+		name = "ui_civbe_integr_ruler_name"
+		portrait = "human_female_02"
+		texture = 3
+		attachment = 19
+		clothes = 1
+		ruler_title = "ui_civbe_integr_ruler_title"
+		ruler_title_female = "ui_civbe_integr_ruler_title_female"
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = scientist
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="machine_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_materialist"
-	civics={
-		"civic_technocracy"
-		"civic_environmentalist"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_the_technocrat"
 }

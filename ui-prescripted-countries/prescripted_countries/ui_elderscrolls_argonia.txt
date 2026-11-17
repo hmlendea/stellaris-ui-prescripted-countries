@@ -1,95 +1,65 @@
-"Sovereign Argonian Confederation"={
-	key="Sovereign Argonian Confederation"
-	ship_prefix={
-		key="ACS"
+ui_elderscrolls_argonia = {
+	name = "EMPIRE_DESIGN_ui_elderscrolls_argonia"
+	adjective = "EMPIRE_DESIGN_ui_elderscrolls_argonia_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_elderscrolls_argonia_ship_prefix"
+	species = {
+		class = "REP"
+		portrait = "rep13"
+		name = "ui_elderscrolls_argonia_species_name"
+		plural = "ui_elderscrolls_argonia_species_plural"
+		adjective = "ui_elderscrolls_argonia_species_adjective"
+		name_list = "ui_elderscrolls_argonian"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_agrarian"
+		trait = "trait_solitary"
+		trait = "trait_sedentary"
+		trait = "trait_resilient"
+		trait = "trait_traditional"
 	}
-	species={
-		class="REP"
-		portrait="rep13"
-		species_name={
-			key="Argonian"
+	room = "personality_honorbound_warriors_room"
+	authority = "auth_oligarchic"
+	government = gov_holy_tribunal
+	origin = "origin_default"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	planet_name = "ui_elderscrolls_argonia_planet_name"
+	planet_class = "pc_tropical"
+	system_name = "ui_elderscrolls_argonia_system_name"
+	initializer = ""
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "flag_pointy_4.dds"
 		}
-		species_plural={
-			key="Argonians"
+		background = {
+			category = "backgrounds"
+			file = "ui_v_flipped.dds"
 		}
-		species_adjective={
-			key="Argonian"
-		}
-		name_list="ui_elderscrolls_argonian"
-		gender=not_set
-		trait="trait_agrarian"
-		trait="trait_solitary"
-		trait="trait_sedentary"
-		trait="trait_resilient"
-		trait="trait_traditional"
-	}
-	name={
-		key="Sovereign Argonian Confederation"
-	}
-	adjective={
-		key="Argonian"
-	}
-	authority="auth_oligarchic"
-	government="gov_holy_tribunal"
-	advisor_voice_type="l_spiritualist"
-	planet_name={
-		key="Helstrom"
-	}
-	planet_class="pc_tropical"
-	system_name={
-		key="Argonia"
-	}
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
-			category="pointy"
-			file="flag_pointy_4.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_v_flipped.dds"
-		}
-		colors={
+		colors = {
 			"green"
 			"dark_green"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Beem-Ja Naga"
-			}
-		}
-		portrait="rep13"
-		texture=5
-		attachment=0
-		clothes=4
-		ruler_title={
-			key="High Root-Speaker"
-			literal=yes
-		}
-		ruler_title_female={
-			key="High Root-Speaker"
-			literal=yes
-		}
-		trait="leader_trait_principled"
-		leader_class="governor"
+	ruler = {
+		gender = male
+		name = "ui_elderscrolls_argonia_ruler_name"
+		portrait = "rep13"
+		texture = 5
+		attachment = 0
+		clothes = 4
+		ruler_title = "ui_elderscrolls_argonia_ruler_title"
+		ruler_title_female = "ui_elderscrolls_argonia_ruler_title_female"
+		trait = "leader_trait_principled"
+		leader_class = official
 	}
-	spawn_as_fallen=yes
-	ignore_portrait_duplication=yes
-	room="personality_honorbound_warriors_room"
-	spawn_enabled=yes
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	civics={
-		"civic_environmentalist"
-		"civic_exalted_priesthood"
-	}
-	origin="origin_default"
+	spawn_as_fallen = yes
+	advisor_voice_type = "l_spiritualist"
 }

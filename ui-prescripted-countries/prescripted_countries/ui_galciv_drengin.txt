@@ -1,100 +1,62 @@
-"Drengin Empire"={
-	key="Drengin Empire"
-	ship_prefix={
-		key="DES"
+ui_galciv_drengin = {
+	name = "EMPIRE_DESIGN_ui_galciv_drengin"
+	adjective = "EMPIRE_DESIGN_ui_galciv_drengin_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_galciv_drengin_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_hp_12"
+		name = "ui_galciv_drengin_species_name"
+		plural = "ui_galciv_drengin_species_plural"
+		adjective = "ui_galciv_drengin_species_adjective"
+		name_list = "ui_extra_mam2"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_decadent"
+		trait = "trait_very_strong"
+		trait = "trait_slow_breeders"
+		trait = "trait_conformists"
 	}
-	species={
-		class="HUM"
-		portrait="humanoid_hp_12"
-		species_name={
-			key="Drengin"
+	room = "personality_fanatic_purifier_room"
+	authority = "auth_imperial"
+	government = gov_martial_empire
+	origin = "origin_default"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	planet_name = "ui_galciv_drengin_planet_name"
+	planet_class = "pc_arid"
+	system_name = "ui_galciv_drengin_system_name"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_galciv"
+			file = "flag_ui_galciv_drengin.dds"
 		}
-		species_plural={
-			key="Drengi"
+		background = {
+			category = "backgrounds"
+			file = "ui_house_flipped.dds"
 		}
-		species_adjective={
-			key="Drengin"
-		}
-		name_list="ui_extra_mam2"
-		gender=not_set
-		trait="trait_decadent"
-		trait="trait_very_strong"
-		trait="trait_slow_breeders"
-		trait="trait_conformists"
-	}
-	name={
-		key="Drengin Empire"
-	}
-	adjective={
-		key="Drengin"
-	}
-	authority="auth_imperial"
-	government="gov_martial_empire"
-	planet_name={
-		key="Drengi"
-	}
-	planet_class="pc_arid"
-	system_name={
-		key="Drengia"
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="ui_galciv"
-			file="flag_ui_galciv_drengin.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_house_flipped.dds"
-		}
-		colors={
+		colors = {
 			"red"
 			"black"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Kona"
-			}
-		}
-		portrait="humanoid_hp_12"
-		texture=2
-		attachment=0
-		clothes=2
-		ruler_title={
-			key="Lord"
-			literal=yes
-		}
-		heir_title={
-			key="Lord"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Lady"
-			literal=yes
-		}
-		heir_title_female={
-			key="Lady"
-			literal=yes
-		}
-		trait="trait_ruler_warlike"
-		leader_class="general"
+	ruler = {
+		gender = male
+		name = "ui_galciv_drengin_ruler_name"
+		portrait = "humanoid_hp_12"
+		texture = 2
+		attachment = 0
+		clothes = 2
+		ruler_title = "ui_galciv_drengin_ruler_title"
+		ruler_title_female = "ui_galciv_drengin_ruler_title_female"
+		trait = "trait_ruler_warlike"
+		leader_class = commander
 	}
-	spawn_as_fallen=yes
-	ignore_portrait_duplication=yes
-	room="personality_fanatic_purifier_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_militarist"
-	civics={
-		"civic_slaver_guilds"
-		"civic_warrior_culture"
-	}
-	origin="origin_default"
+	spawn_as_fallen = yes
 }

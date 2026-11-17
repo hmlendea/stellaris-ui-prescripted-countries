@@ -40,13 +40,14 @@ All textures provided by Universum Infinitum Flags.
 ### Name Lists
 
 Countries reference name lists via:
-- `ship_prefix.key` → name list key for ship prefixes
-- `name.key` → name list key for empire name (when not literal)
-- `adjective.key` → name list key for adjective
-- `planet_name.key` → name list key for homeworld
-- `system_name.key` → name list key for home system
+- `ship_prefix` → localisation key for ship prefixes
+- `name` → localisation key for empire name
+- `adjective` → localisation key for adjective
+- `planet_name` → localisation key for homeworld
+- `system_name` → localisation key for home system
+- `species.name_list` → name list definition key (for example `HUM2`, `ui_extra_mam1`)
 
-All keys provided by Universum Infinitum Name Lists.
+Localisation keys live in this mod; name list definitions come from Universum Infinitum Name Lists or the base game.
 
 ### Species Traits
 

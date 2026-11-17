@@ -1,101 +1,59 @@
-"Slavic Federation"={
-	key="Slavic Federation"
-	ship_prefix={
-		key="SFS"
+ui_civbe_slavic_federation = {
+	name = "EMPIRE_DESIGN_ui_civbe_slavic_federation"
+	adjective = "EMPIRE_DESIGN_ui_civbe_slavic_federation_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_civbe_slavic_federation_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_civbe_slavic_federation_species_name"
+		plural = "ui_civbe_slavic_federation_species_plural"
+		adjective = "ui_civbe_slavic_federation_species_adjective"
+		name_list = "ui_extra_humans_slavic"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_nomadic"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_democratic_crusaders_room"
+	authority = "auth_democratic"
+	government = gov_representative_democracy
+	origin = "origin_lost_colony"
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_xenophile"
+	planet_name = "ui_civbe_slavic_federation_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_civbe_slavic_federation_system_name"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civbe"
+			file = "ui_slavic.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_slavic"
-		gender=not_set
-		trait="trait_traditional"
-		trait="trait_nomadic"
-	}
-	name={
-		key="Slavic Federation"
-		literal=yes
-	}
-	adjective={
-		key="%ADJ%"
-		variables={
-			{
-				key="adjective"
-				value={
-					key="Slavic"
-					literal=yes
-				}
-			}
-
-		}
-	}
-	authority="auth_democratic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_representative_democracy"
-	advisor_voice_type="l_the_diplomat"
-	planet_name={
-		key="Khrabrost"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Novaya Zvezda"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="ui_civbe"
-			file="ui_slavic.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"red"
 			"yellow"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Vadim Kozlov"
-				literal=yes
-			}
-		}
-		portrait="human_male_04"
-		texture=0
-		attachment=73
-		clothes=2
-		trait="leader_trait_fleet_organizer"
-		leader_class="admiral"
+	ruler = {
+		gender = male
+		name = "ui_civbe_slavic_federation_ruler_name"
+		portrait = "human_male_04"
+		texture = 0
+		attachment = 73
+		clothes = 2
+		trait = "leader_trait_fleet_organizer"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_democratic_crusaders_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_xenophile"
-	civics={
-		"civic_free_haven"
-		"civic_functional_architecture"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_the_diplomat"
 }

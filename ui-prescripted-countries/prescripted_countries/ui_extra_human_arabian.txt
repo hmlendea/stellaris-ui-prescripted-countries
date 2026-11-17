@@ -1,98 +1,64 @@
-"United Arab Emirates"={
-	key="United Arab Emirates"
-	ship_prefix={
-		key="UAS"
+ui_extra_human_arabian = {
+	name = "EMPIRE_DESIGN_ui_extra_human_arabian"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_arabian_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_arabian_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_arabian_species_name"
+		plural = "ui_extra_human_arabian_species_plural"
+		adjective = "ui_extra_human_arabian_species_adjective"
+		name_list = "ui_extra_humans_arabic"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_traditional"
+		trait = "trait_nomadic"
+		trait = "trait_deviants"
+		trait = "trait_decadent"
+		trait = "trait_thrifty"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_evangelizing_zealots_room"
+	authority = "auth_imperial"
+	government = gov_enlightened_monarchy
+	origin = "origin_lost_colony"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_spiritualist"
+	planet_name = "ui_extra_human_arabian_planet_name"
+	planet_class = "pc_desert"
+	system_name = "ui_extra_human_arabian_system_name"
+	initializer = ""
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "arthropoid_01"
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "ui_islam.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_arabic"
-		gender=not_set
-		trait="trait_traditional"
-		trait="trait_nomadic"
-		trait="trait_deviants"
-		trait="trait_decadent"
-		trait="trait_thrifty"
-	}
-	name={
-		key="United Arab Emirates"
-	}
-	adjective={
-		key="Arab"
-	}
-	authority="auth_imperial"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_enlightened_monarchy"
-	advisor_voice_type="l_spiritualist"
-	planet_name={
-		key="Ard"
-	}
-	planet_class="pc_desert"
-	system_name={
-		key="Ra"
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="ui_islam.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"green"
 			"yellow"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Rashad Qudsi"
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		attachment=36
-		clothes=3
-		ruler_title={
-			key="Emir"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Emir"
-			literal=yes
-		}
-		trait="trait_ruler_industrialist"
-		leader_class="governor"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_arabian_ruler_name"
+		portrait = "human_male_03"
+		texture = 0
+		attachment = 36
+		clothes = 3
+		ruler_title = "ui_extra_human_arabian_ruler_title"
+		ruler_title_female = "ui_extra_human_arabian_ruler_title_female"
+		trait = "trait_ruler_industrialist"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_evangelizing_zealots_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_merchant_guilds"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_spiritualist"
 }

@@ -8,7 +8,7 @@
 | INV-002 | `supported_version` uses wildcard patch | Regex: `^\d+\.\d+\.\*$` |
 | INV-003 | Exactly 26 country definition files | `ls prescripted_countries/*.txt \| wc -l` |
 | INV-004 | All country files have unique top-level keys | Parse all, check duplicates |
-| INV-005 | Every non-literal key has localisation entry | Cross-reference parse |
+| INV-005 | Every referenced localisation key is defined in this mod or the base game | Cross-reference parse |
 | INV-006 | No orphan localisation keys | Cross-reference parse |
 | INV-007 | All 3 dependencies declared | Descriptor workshop IDs |
 | INV-008 | Localisation file has UTF-8 BOM | `file localisation/english/*.yml` |
@@ -19,8 +19,8 @@
 
 | Invariant | Description |
 |-----------|-------------|
-| CINV-001 | Top-level block name equals `key` field |
-| CINV-002 | `species.class="HUM"` |
+| CINV-001 | Top-level key equals filename stem with `-` replaced by `_` |
+| CINV-002 | `species.class="HUM"` and `trait_organic` present |
 | CINV-003 | Exactly 2 `ethic` entries (fanatic counts as 1 entry) |
 | CINV-004 | Exactly 2 `civics` entries |
 | CINV-005 | `origin` present and valid |
@@ -32,7 +32,7 @@
 | CINV-011 | `empire_flag` has icon, background, 4 colors |
 | CINV-012 | `ruler` block present with name, portrait, texture |
 | CINV-013 | `room` valid personality room |
-| CINV-014 | `ship_prefix` has `key` field |
+| CINV-014 | `ship_prefix` is a localisation key string (no `key` sub-field) |
 
 ## Cross-Mod Reference Invariants
 

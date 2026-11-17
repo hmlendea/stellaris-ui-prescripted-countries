@@ -2,7 +2,7 @@
 
 ## Repository Summary
 
-**Stellaris UI Prescripted Countries** — A content-only mod adding 26 prescripted empires from 5 franchises (Civilization: Beyond Earth, The Elder Scrolls, Original, Galactic Civilizations, StarCraft) for Stellaris 3.9.*.
+**Stellaris UI Prescripted Countries** — A content-only mod adding 26 prescripted empires from 5 franchises (Civilization: Beyond Earth, The Elder Scrolls, Original, Galactic Civilizations, StarCraft) for Stellaris 4.5.*.
 
 - **Type**: Data-only mod (no code, no scripts, no build)
 - **Engine**: Stellaris (Clausewitz script + YAML localisation)
@@ -124,11 +124,11 @@
 ## Maintenance Metadata
 
 - **Generated**: 2025-01-15 (session)
-- **Mod version**: 1.2.2
-- **Stellaris target**: 3.9.*
+- **Mod version**: 1.3.0
+- **Stellaris target**: 4.5.*
 - **Document count**: 24 files in `docs/`
 - **Last full review**: This session
-- **Next review triggers**: Stellaris 3.10 release, dependency updates, new empire additions
+- **Next review triggers**: Stellaris 4.6 release, dependency updates, new empire additions
 
 ## Cross-Reference Integrity
 

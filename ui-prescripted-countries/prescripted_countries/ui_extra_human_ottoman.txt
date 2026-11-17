@@ -1,99 +1,65 @@
-"Ottoman Empire"={
-	key="Ottoman Empire"
-	ship_prefix={
-		key="OES"
+ui_extra_human_ottoman = {
+	name = "EMPIRE_DESIGN_ui_extra_human_ottoman"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_ottoman_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_ottoman_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_ottoman_species_name"
+		plural = "ui_extra_human_ottoman_species_plural"
+		adjective = "ui_extra_human_ottoman_species_adjective"
+		name_list = "ui_extra_humans_turkic"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_thrifty"
+		trait = "trait_ingenious"
+		trait = "trait_nomadic"
+		trait = "trait_quarrelsome"
+		trait = "trait_unruly"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_harmonious_hierarchy_room"
+	authority = "auth_imperial"
+	government = gov_feudal_empire
+	origin = "origin_lost_colony"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	planet_name = "ui_extra_human_ottoman_planet_name"
+	planet_class = "pc_arid"
+	system_name = "ui_extra_human_ottoman_system_name"
+	initializer = ""
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "ui_turkey.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_turkic"
-		gender=not_set
-		trait="trait_thrifty"
-		trait="trait_ingenious"
-		trait="trait_nomadic"
-		trait="trait_quarrelsome"
-		trait="trait_unruly"
-	}
-	name={
-		key="Ottoman Empire"
-	}
-	adjective={
-		key="Ottoman"
-	}
-	authority="auth_imperial"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_feudal_empire"
-	advisor_voice_type="l_the_diplomat"
-	planet_name={
-		key="Kale"
-	}
-	planet_class="pc_arid"
-	system_name={
-		key="Inanç"
-	}
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="ui_turkey.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"red"
 			"green"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Ozen Açik"
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		attachment=11
-		clothes=0
-		ruler_title={
-			key="Sultan"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Sultana"
-			literal=yes
-		}
-		trait="trait_ruler_warlike"
-		leader_class="general"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_ottoman_ruler_name"
+		portrait = "human_male_03"
+		texture = 0
+		attachment = 11
+		clothes = 0
+		ruler_title = "ui_extra_human_ottoman_ruler_title"
+		ruler_title_female = "ui_extra_human_ottoman_ruler_title_female"
+		trait = "trait_ruler_warlike"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_harmonious_hierarchy_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	civics={
-		"civic_feudal_realm"
-		"civic_merchant_guilds"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_the_diplomat"
 }

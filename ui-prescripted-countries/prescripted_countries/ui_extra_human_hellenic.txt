@@ -1,96 +1,62 @@
-"The Hellenic League"={
-	key="The Hellenic League"
-	ship_prefix={
-		key="GLS"
+ui_extra_human_hellenic = {
+	name = "EMPIRE_DESIGN_ui_extra_human_hellenic"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_hellenic_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_hellenic_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_hellenic_species_name"
+		plural = "ui_extra_human_hellenic_species_plural"
+		adjective = "ui_extra_human_hellenic_species_adjective"
+		name_list = "ui_extra_humans_hellenic"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_intelligent"
+		trait = "trait_deviants"
+		trait = "trait_decadent"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_decadent_hierarchy_room"
+	authority = "auth_democratic"
+	government = gov_direct_democracy
+	origin = "origin_lost_colony"
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_materialist"
+	planet_name = "ui_extra_human_hellenic_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_extra_human_hellenic_system_name"
+	initializer = ""
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "ui_omega.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_hellenic"
-		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_intelligent"
-		trait="trait_deviants"
-		trait="trait_decadent"
-	}
-	name={
-		key="The Hellenic League"
-	}
-	adjective={
-		key="Hellenic"
-	}
-	authority="auth_democratic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_direct_democracy"
-	planet_name={
-		key="Byzantion"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Helios"
-	}
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="ui_omega.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"ui_white"
 			"light_blue"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Giorgos Skarlatos"
-			}
-		}
-		portrait="human_male_01"
-		texture=0
-		attachment=14
-		clothes=3
-		ruler_title={
-			key="President"
-			literal=yes
-		}
-		ruler_title_female={
-			key="President"
-			literal=yes
-		}
-		trait="leader_trait_principled"
-		leader_class="governor"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_hellenic_ruler_name"
+		portrait = "human_male_01"
+		texture = 0
+		attachment = 14
+		clothes = 3
+		ruler_title = "ui_extra_human_hellenic_ruler_title"
+		ruler_title_female = "ui_extra_human_hellenic_ruler_title_female"
+		trait = "leader_trait_principled"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_decadent_hierarchy_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_materialist"
-	civics={
-		"civic_beacon_of_liberty"
-		"civic_byzantine_bureaucracy"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
 }

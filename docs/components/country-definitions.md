@@ -37,52 +37,77 @@ Each file in `prescripted_countries/` defines one complete empire template that 
 
 ## Structure
 
-Every file follows the same top-level pattern:
+Every file follows the same top-level pattern (Stellaris 4.5 schema):
 
 ```text
-"<Empire Key>"={
-    key="<Empire Key>"
-    ship_prefix={ key="<PREFIX>" }
-    species={ ... }
-    name={ key="<Name Key>" }
-    adjective={ key="<Adjective Key>" }
-    authority="<auth_*>"
-    government="<gov_*>"
-    planet_name={ key="<Planet Key>" }
-    planet_class="<pc_*>"
-    system_name={ key="<System Key>" }
-    initializer=""
-    graphical_culture="<culture>"
-    city_graphical_culture="<culture>"
-    empire_flag={ icon={ category="<cat>" file="<file.dds>" } background={ category="<cat>" file="<file.dds>" } colors={ "<c1>" "<c2>" "<c3>" "<c4>" } }
-    ruler={ ... }
-    spawn_as_fallen=<yes|no>
-    ignore_portrait_duplication=yes
-    room="<personality_*_room>"
-    spawn_enabled=yes
-    ethic="<ethic_*>"
-    ethic="<ethic_*>"
-    civics={ "<civic_*>" "<civic_*>" }
-    origin="<origin_*>"
-    flags={ "human_1" "custom_start_screen" }  # optional
-    advisor_voice_type="<l_*>"  # optional
-    species.species_bio="<text>"  # optional
+<empire_key> = {
+    name = "EMPIRE_DESIGN_<empire_key>"
+    adjective = "EMPIRE_DESIGN_<empire_key>_adj"
+    spawn_enabled = yes
+    ignore_portrait_duplication = yes
+    ship_prefix = "<empire_key>_ship_prefix"
+    species = {
+        class = "HUM"
+        portrait = "<portrait>"
+        name = "<empire_key>_species_name"
+        plural = "<empire_key>_species_plural"
+        adjective = "<empire_key>_species_adjective"
+        name_list = "<name_list>"
+        gender = not_set
+        trait = "trait_organic"
+        trait = "<trait>"
+    }
+    room = "<personality_*_room>"
+    authority = "<auth_*>"
+    civics = { "<civic_*>" "<civic_*>" }
+    government = <gov_*>
+    origin = "<origin_*>"
+    ethic = "<ethic_*>"
+    ethic = "<ethic_*>"
+    planet_name = "<empire_key>_planet_name"
+    planet_class = "<pc_*>"
+    system_name = "<empire_key>_system_name"
+    initializer = ""
+    graphical_culture = "<culture>"
+    city_graphical_culture = "<culture>"
+    empire_flag = {
+        icon = { category = "<cat>" file = "<file.dds>" }
+        background = { category = "<cat>" file = "<file.dds>" }
+        colors = { "<c1>" "<c2>" "<null>" "<null>" }
+    }
+    ruler = {
+        gender = <male|female>
+        name = "<empire_key>_ruler_name"
+        portrait = "<portrait>"
+        texture = <n>
+        attachment = <n>
+        clothes = <n>
+        ruler_title = "<empire_key>_ruler_title"
+        ruler_title_female = "<empire_key>_ruler_title_female"
+        trait = "<trait_ruler_*>"
+        leader_class = <official|commander|scientist>
+    }
+    spawn_as_fallen = <yes|no>
+    advisor_voice_type = "<l_*>"  # optional
 }
 ```
 
+`secondary_species` is used instead of, or alongside, `species` when the origin requires a second species (for example `origin_syncretic_evolution`).
+
 ## Key Design Patterns
 
-### Literal vs Localised Names
+### Names and Localisation
 
-- Fields with `literal=yes` use the provided string directly.
-- Fields without it resolve through localisation (`EMPIRE_DESIGN_<key>`).
-- Most countries use localisation for `name` and `adjective`; some (e.g., Aldmeri Dominion) use `literal=yes`.
+- The top-level block key is a bare identifier derived from the filename with hyphens replaced by underscores (for example `ui_civbe_franco_iberia`).
+- Every human-readable field holds a localisation key string; there is no `literal` mechanism and no `{ key = ... }` wrapper. Literal display text lives in the localisation file.
+- Keys follow `<empire_key>_<field>` for species, planet, system, ship prefix, and ruler data.
 
 ### Species Configuration
 
 All countries use `class="HUM"` (humanoid). Portraits vary:
 - Base game human portraits: `human`, `human_male_05`, etc.
 - Humanoid variants: `humanoid_05`, `humanoid_04`, `humanoid_hp_12`.
+- Every species block includes `trait = "trait_organic"`; Stellaris 4.5 rejects designs without a species archetype trait.
 
 ### Ethics and Civics
 
@@ -96,23 +121,27 @@ Countries use various origins:
 - `origin_lost_colony` (common for human-derived)
 - `origin_default`
 - `origin_life_seeded`
-- `origin_shoulders_of_giants`
+- `origin_syncretic_evolution`
 
 ### Fallen Empire Candidates
 
 Countries with `spawn_as_fallen=yes`:
 - Drengin Empire
+- Krynn Syndicate
+- Sovereign Argonian Confederation
 - Protoss Empire
 
 These can spawn as fallen empires during galaxy generation.
 
 ## Invariants
 
-- Top-level block name equals `key` field.
+- Filename stem (with `-` replaced by `_`) equals the top-level block key.
 - `ignore_portrait_duplication=yes` on every country.
 - `spawn_enabled=yes` on every country.
+- Every species block starts with `trait = "trait_organic"`.
+- No field uses `key=`, `literal=`, `species_name`, `species_plural`, `species_adjective`, `full_names`, or `flags={...}`.
 - All referenced external keys exist in dependencies or base game.
-- Localisation covers every non-literal `name` and `adjective` key.
+- Localisation covers every resolved key string.
 
 ## Related Documentation
 

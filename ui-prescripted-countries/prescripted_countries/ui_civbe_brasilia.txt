@@ -1,91 +1,62 @@
-"Brasilia"={
-	key="Brasilia"
-	ship_prefix={
-		key="BS"
+ui_civbe_brasilia = {
+	name = "EMPIRE_DESIGN_ui_civbe_brasilia"
+	adjective = "EMPIRE_DESIGN_ui_civbe_brasilia_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_civbe_brasilia_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_civbe_brasilia_species_name"
+		plural = "ui_civbe_brasilia_species_plural"
+		adjective = "ui_civbe_brasilia_species_adjective"
+		name_list = "ui_extra_humans_portuguese_int"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_resilient"
+		trait = "trait_adaptive"
+		trait = "trait_strong"
+		trait = "trait_unruly"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_federation_builders_room"
+	authority = "auth_dictatorial"
+	government = gov_military_dictatorship
+	origin = "origin_lost_colony"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_materialist"
+	planet_name = "ui_civbe_brasilia_planet_name"
+	planet_class = "pc_tropical"
+	system_name = "ui_civbe_brasilia_system_name"
+	initializer = ""
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civbe"
+			file = "ui_brasilia.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "ui_diamond3.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_portuguese_int"
-		gender=not_set
-		trait="trait_resilient"
-		trait="trait_adaptive"
-		trait="trait_strong"
-		trait="trait_unruly"
-	}
-	name={
-		key="Brasilia"
-	}
-	adjective={
-		key="Brazilian"
-	}
-	authority="auth_dictatorial"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_military_dictatorship"
-	advisor_voice_type="l_militarist"
-	planet_name={
-		key="Cidadela"
-	}
-	planet_class="pc_tropical"
-	system_name={
-		key="Stea"
-	}
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
-			category="ui_civbe"
-			file="ui_brasilia.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_diamond3.dds"
-		}
-		colors={
+		colors = {
 			"green"
 			"light_green"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Rejinaldo Bolivar de Alencar-Araripe"
-				literal=yes
-			}
-		}
-		portrait="human_male_01"
-		texture=0
-		attachment=72
-		clothes=4
-		trait="trait_ruler_logistic_understanding"
-		leader_class="general"
+	ruler = {
+		gender = male
+		name = "ui_civbe_brasilia_ruler_name"
+		portrait = "human_male_01"
+		texture = 0
+		attachment = 72
+		clothes = 4
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_federation_builders_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics={
-		"civic_nationalistic_zeal"
-		"civic_cutthroat_politics"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_militarist"
 }

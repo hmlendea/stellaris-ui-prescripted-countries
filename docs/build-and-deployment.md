@@ -13,6 +13,8 @@ No build process. Mod is pure data files.
 3. Point to `ui-prescripted-countries/` folder.
 4. Publish with version tag matching `version` field.
 
+`.github/workflows/steam-workshop-release.yml` automates the Steam Workshop side on a `v*.*.*` tag push or manual dispatch: it checks out the tag, sets `version` in both descriptors, zips and extracts the descriptor and content directory, and uploads `release/ui-prescripted-countries/` to Workshop item `2048949837` with a changenote linking the matching release tag. Paradox Mods remains a manual upload.
+
 ### Nexus Mods
 
 1. Create ZIP of `ui-prescripted-countries/` folder.

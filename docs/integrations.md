@@ -48,7 +48,7 @@ Provides trait keys referenced by `species.traits`.
 
 | Platform | Integration Method |
 |----------|-------------------|
-| Steam Workshop | Paradox Mod Tools upload |
+| Steam Workshop | Automated upload by `.github/workflows/steam-workshop-release.yml` to item `2048949837` on `v*.*.*` tag push or manual dispatch |
 | Paradox Mods | Paradox Mod Tools upload |
 | Nexus Mods | Automated upload by `.github/workflows/nexus-mods-release.yml` on `v*.*.*` tag push or manual dispatch |
 | GitHub Releases | Git tag + release assets |

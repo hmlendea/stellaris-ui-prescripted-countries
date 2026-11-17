@@ -1,89 +1,61 @@
-"Norse Empire"={
-	key="Norse Empire"
-	ship_prefix={
-		key="NES"
+ui_extra_human_norse = {
+	name = "EMPIRE_DESIGN_ui_extra_human_norse"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_norse_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_norse_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_norse_species_name"
+		plural = "ui_extra_human_norse_species_plural"
+		adjective = "ui_extra_human_norse_species_adjective"
+		name_list = "ui_extra_humans_norse"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_conformists"
+		trait = "trait_traditional"
+		trait = "trait_sedentary"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_honorbound_warriors_room"
+	authority = "auth_oligarchic"
+	government = gov_war_council
+	origin = "origin_lost_colony"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+	planet_name = "ui_extra_human_norse_planet_name"
+	planet_class = "pc_alpine"
+	system_name = "ui_extra_human_norse_system_name"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_14.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "ui_circle_bicolour2.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_norse"
-		gender=not_set
-		trait="trait_conformists"
-		trait="trait_traditional"
-		trait="trait_sedentary"
-	}
-	name={
-		key="Norse Empire"
-	}
-	adjective={
-		key="Norse"
-	}
-	authority="auth_oligarchic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_war_council"
-	advisor_voice_type="l_militarist"
-	planet_name={
-		key="Midgard"
-	}
-	planet_class="pc_alpine"
-	system_name={
-		key="Valhalla"
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="ornate"
-			file="flag_ornate_14.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_circle_bicolour2.dds"
-		}
-		colors={
+		colors = {
 			"ui_white"
 			"indigo"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Måns Ekberg"
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		attachment=12
-		clothes=5
-		trait="trait_ruler_warlike"
-		leader_class="commander"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_norse_ruler_name"
+		portrait = "human_male_03"
+		texture = 0
+		attachment = 12
+		clothes = 5
+		trait = "trait_ruler_warlike"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_honorbound_warriors_room"
-	spawn_enabled=yes
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	civics={
-		"civic_nationalistic_zeal"
-		"civic_warrior_culture"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_militarist"
 }

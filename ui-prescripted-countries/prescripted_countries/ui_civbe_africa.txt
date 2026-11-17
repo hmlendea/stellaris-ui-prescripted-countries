@@ -1,87 +1,59 @@
-"People's African Union"={
-	key="People's African Union"
-	ship_prefix={
-		key="PAS"
+ui_civbe_africa = {
+	name = "EMPIRE_DESIGN_ui_civbe_africa"
+	adjective = "EMPIRE_DESIGN_ui_civbe_africa_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_civbe_africa_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_civbe_africa_species_name"
+		plural = "ui_civbe_africa_species_plural"
+		adjective = "ui_civbe_africa_species_adjective"
+		name_list = "ui_extra_humans_african"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_rapid_breeders"
+		trait = "trait_agrarian"
+		trait = "trait_unruly"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_peaceful_traders_room"
+	authority = "auth_democratic"
+	government = gov_communal_parity
+	origin = "origin_lost_colony"
+	ethic = "ethic_fanatic_egalitarian"
+	ethic = "ethic_pacifist"
+	planet_name = "ui_civbe_africa_planet_name"
+	planet_class = "pc_savannah"
+	system_name = "ui_civbe_africa_system_name"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civbe"
+			file = "ui_africa.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "ui_hexagon.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_african"
-		gender=not_set
-		trait="trait_rapid_breeders"
-		trait="trait_agrarian"
-		trait="trait_unruly"
-	}
-	name={
-		key="People's African Union"
-	}
-	adjective={
-		key="African"
-	}
-	authority="auth_democratic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_communal_parity"
-	planet_name={
-		key="Adimbo"
-	}
-	planet_class="pc_savannah"
-	system_name={
-		key="Wakanda"
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="ui_civbe"
-			file="ui_africa.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_hexagon.dds"
-		}
-		colors={
+		colors = {
 			"orange"
 			"burgundy"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Samatar Jama Barre"
-			}
-		}
-		portrait="human_male_05"
-		texture=0
-		attachment=0
-		clothes=4
-		trait="trait_ruler_industrialist"
-		leader_class="official"
+	ruler = {
+		gender = male
+		name = "ui_civbe_africa_ruler_name"
+		portrait = "human_male_05"
+		texture = 0
+		attachment = 0
+		clothes = 4
+		trait = "trait_ruler_industrialist"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_peaceful_traders_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_pacifist"
-	civics={
-		"civic_agrarian_idyll"
-		"civic_shared_burden"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
 }

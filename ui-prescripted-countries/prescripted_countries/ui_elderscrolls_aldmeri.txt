@@ -1,114 +1,64 @@
-"Aldmeri Dominion"={
-	key="Aldmeri Dominion"
-	ship_prefix={
-		key="ADS"
+ui_elderscrolls_aldmeri = {
+	name = "EMPIRE_DESIGN_ui_elderscrolls_aldmeri"
+	adjective = "EMPIRE_DESIGN_ui_elderscrolls_aldmeri_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_elderscrolls_aldmeri_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_05"
+		name = "ui_elderscrolls_aldmeri_species_name"
+		plural = "ui_elderscrolls_aldmeri_species_plural"
+		adjective = "ui_elderscrolls_aldmeri_species_adjective"
+		name_list = "ui_elderscrolls_altmer"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_intelligent"
+		trait = "trait_talented"
+		trait = "trait_quick_learners"
+		trait = "trait_slow_breeders"
 	}
-	species={
-		class="HUM"
-		portrait="humanoid_05"
-		species_name={
-			key="Altmer"
+	room = "personality_harmonious_hierarchy_room"
+	authority = "auth_oligarchic"
+	government = gov_military_junta
+	origin = "origin_life_seeded"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	planet_name = "ui_elderscrolls_aldmeri_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_elderscrolls_aldmeri_system_name"
+	initializer = ""
+	graphical_culture = "avian_01"
+	city_graphical_culture = "avian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_elder-scrolls"
+			file = "ui_alinor.dds"
 		}
-		species_plural={
-			key="Altmers"
-			literal=yes
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="Altmeri"
-			literal=yes
-		}
-		name_list="ui_elderscrolls_altmer"
-		gender=not_set
-		trait="trait_intelligent"
-		trait="trait_talented"
-		trait="trait_quick_learners"
-		trait="trait_slow_breeders"
-	}
-	name={
-		key="Aldmeri Dominion"
-		literal=yes
-	}
-	adjective={
-		key="%ADJ%"
-		variables={
-			{
-				key="adjective"
-				value={
-					key="Aldmer"
-					literal=yes
-				}
-			}
-
-		}
-	}
-	authority="auth_oligarchic"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_military_junta"
-	advisor_voice_type="l_xenophobe"
-	planet_name={
-		key="Summerset"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Magnus"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="avian_01"
-	empire_flag={
-		icon={
-			category="ui_elder-scrolls"
-			file="ui_alinor.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"dark_grey"
 			"beige"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=female
-		name={
-			full_names={
-				key="Lilawen Ateldil"
-				literal=yes
-			}
-		}
-		portrait="humanoid_05_female_01"
-		texture=0
-		attachment=22
-		clothes=0
-		ruler_title={
-			key="King"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Queen"
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="official"
+	ruler = {
+		gender = female
+		name = "ui_elderscrolls_aldmeri_ruler_name"
+		portrait = "humanoid_05_female_01"
+		texture = 0
+		attachment = 22
+		clothes = 0
+		ruler_title = "ui_elderscrolls_aldmeri_ruler_title"
+		ruler_title_female = "ui_elderscrolls_aldmeri_ruler_title_female"
+		trait = "trait_ruler_charismatic"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_harmonious_hierarchy_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	civics={
-		"civic_meritocracy"
-		"civic_shadow_council"
-	}
-	origin="origin_life_seeded"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_xenophobe"
 }

@@ -1,88 +1,60 @@
-"Japanese Empire"={
-	key="Japanese Empire"
-	ship_prefix={
-		key="JES"
+ui_extra_human_japanese = {
+	name = "EMPIRE_DESIGN_ui_extra_human_japanese"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_japanese_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_japanese_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_japanese_species_name"
+		plural = "ui_extra_human_japanese_species_plural"
+		adjective = "ui_extra_human_japanese_species_adjective"
+		name_list = "ui_extra_humans_japanese"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_conformists"
+		trait = "trait_traditional"
+		trait = "trait_sedentary"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_democratic_crusaders_room"
+	authority = "auth_imperial"
+	government = gov_martial_empire
+	origin = "origin_lost_colony"
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_militarist"
+	planet_name = "ui_extra_human_japanese_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_extra_human_japanese_system_name"
+	initializer = ""
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "human"
+			file = "ui_japanese-empire.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_japanese"
-		gender=not_set
-		trait="trait_conformists"
-		trait="trait_traditional"
-		trait="trait_sedentary"
-	}
-	name={
-		key="Japanese Empire"
-	}
-	adjective={
-		key="Japanese"
-	}
-	authority="auth_imperial"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_martial_empire"
-	advisor_voice_type="l_militarist"
-	planet_name={
-		key="Kyoto"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Amaterasu"
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="ui_japanese-empire.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"red"
 			"grey"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Norinaga"
-			}
-		}
-		portrait="human_male_02"
-		texture=0
-		attachment=25
-		clothes=6
-		trait="leader_trait_fleet_organizer"
-		leader_class="commander"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_japanese_ruler_name"
+		portrait = "human_male_02"
+		texture = 0
+		attachment = 25
+		clothes = 6
+		trait = "leader_trait_fleet_organizer"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_democratic_crusaders_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_militarist"
-	civics={
-		"civic_nationalistic_zeal"
-		"civic_warrior_culture"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_militarist"
 }

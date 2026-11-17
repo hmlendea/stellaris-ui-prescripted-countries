@@ -1,107 +1,60 @@
-"Pan-Asian Cooperative"={
-	key="Pan-Asian Cooperative"
-	ship_prefix={
-		key="PAS"
+ui_civbe_panasian_cooperative = {
+	name = "EMPIRE_DESIGN_ui_civbe_panasian_cooperative"
+	adjective = "EMPIRE_DESIGN_ui_civbe_panasian_cooperative_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_civbe_panasian_cooperative_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_civbe_panasian_cooperative_species_name"
+		plural = "ui_civbe_panasian_cooperative_species_plural"
+		adjective = "ui_civbe_panasian_cooperative_species_adjective"
+		name_list = "ui_extra_humans_asian"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_industrious"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_slaving_despots_room"
+	authority = "auth_dictatorial"
+	government = gov_totalitarian_regime
+	origin = "origin_lost_colony"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_materialist"
+	planet_name = "ui_civbe_panasian_cooperative_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_civbe_panasian_cooperative_system_name"
+	initializer = ""
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civbe"
+			file = "ui_panasia.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_asian"
-		gender=not_set
-		trait="trait_industrious"
-	}
-	name={
-		key="Pan-Asian Cooperative"
-		literal=yes
-	}
-	adjective={
-		key="%ADJ%"
-		variables={
-			{
-				key="adjective"
-				value={
-					key="Pan-Asian"
-					literal=yes
-				}
-			}
-
-		}
-	}
-	authority="auth_dictatorial"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_totalitarian_regime"
-	advisor_voice_type="l_the_worker"
-	planet_name={
-		key="Tiangong"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Xinxing"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
-			category="ui_civbe"
-			file="ui_panasia.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"dark_purple"
 			"pink"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=female
-		name={
-			full_names={
-				key="Daoming Sochua"
-			}
-		}
-		portrait="human_female_02"
-		texture=0
-		attachment=15
-		clothes=4
-		ruler_title={
-			key="General Secretary"
-			literal=yes
-		}
-		ruler_title_female={
-			key="General Secretary"
-			literal=yes
-		}
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
+	ruler = {
+		gender = female
+		name = "ui_civbe_panasian_cooperative_ruler_name"
+		portrait = "human_female_02"
+		texture = 0
+		attachment = 15
+		clothes = 4
+		ruler_title = "ui_civbe_panasian_cooperative_ruler_title"
+		ruler_title_female = "ui_civbe_panasian_cooperative_ruler_title_female"
+		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_slaving_despots_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
-	civics={
-		"civic_cutthroat_politics"
-		"civic_merchant_guilds"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_the_worker"
 }

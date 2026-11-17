@@ -1,88 +1,63 @@
-"Protoss Empire"={
-	key="Protoss Empire"
-	ship_prefix={
-		key="PES"
+ui_starcraft_protoss = {
+	name = "EMPIRE_DESIGN_ui_starcraft_protoss"
+	adjective = "EMPIRE_DESIGN_ui_starcraft_protoss_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_starcraft_protoss_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "humanoid_04"
+		name = "ui_starcraft_protoss_species_name"
+		plural = "ui_starcraft_protoss_species_plural"
+		adjective = "ui_starcraft_protoss_species_adjective"
+		name_list = "ui_starcraft_protoss"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_venerable"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+		trait = "trait_sedentary"
+		trait = "trait_solitary"
 	}
-	species={
-		class="HUM"
-		portrait="humanoid_04"
-		species_name={
-			key="Protoss"
+	room = "personality_honorbound_warriors_room"
+	authority = "auth_imperial"
+	government = gov_feudal_empire
+	origin = "origin_shoulders_of_giants"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_spiritualist"
+	planet_name = "ui_starcraft_protoss_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_starcraft_protoss_system_name"
+	initializer = ""
+	graphical_culture = "avian_01"
+	city_graphical_culture = "humanoid_01"
+	empire_flag = {
+		icon = {
+			category = "ui_starcraft"
+			file = "flag_ui_starcraft_protoss.dds"
 		}
-		species_plural={
-			key="Protoss"
+		background = {
+			category = "backgrounds"
+			file = "ui_hexagon.dds"
 		}
-		species_adjective={
-			key="Protoss"
-		}
-		species_bio="The protoss are a sapient humanoid race native to Aiur."
-		name_list="ui_starcraft_protoss"
-		gender=not_set
-		trait="trait_venerable"
-		trait="trait_intelligent"
-		trait="trait_slow_breeders"
-		trait="trait_sedentary"
-		trait="trait_solitary"
-	}
-	name={
-		key="Protoss Empire"
-	}
-	adjective={
-		key="Protoss"
-	}
-	authority="auth_imperial"
-	government="gov_feudal_empire"
-	advisor_voice_type="l_authoritarian"
-	planet_name={
-		key="Aiur"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Golden Orb of Day"
-	}
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="ui_starcraft"
-			file="flag_ui_starcraft_protoss.dds"
-		}
-		background={
-			category="backgrounds"
-			file="ui_hexagon.dds"
-		}
-		colors={
+		colors = {
 			"turquoise"
 			"yellow"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Kortanul"
-			}
-		}
-		portrait="humanoid_04_male_01"
-		texture=0
-		attachment=0
-		clothes=4
-		trait="trait_ruler_logistic_understanding"
-		leader_class="commander"
+	ruler = {
+		gender = male
+		name = "ui_starcraft_protoss_ruler_name"
+		portrait = "humanoid_04_male_01"
+		texture = 0
+		attachment = 0
+		clothes = 4
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = commander
 	}
-	spawn_as_fallen=yes
-	ignore_portrait_duplication=yes
-	room="personality_honorbound_warriors_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophobe"
-	ethic="ethic_spiritualist"
-	civics={
-		"civic_environmentalist"
-		"civic_feudal_realm"
-	}
-	origin="origin_shoulders_of_giants"
+	spawn_as_fallen = yes
+	advisor_voice_type = "l_authoritarian"
 }

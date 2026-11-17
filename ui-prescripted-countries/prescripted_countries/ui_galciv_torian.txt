@@ -1,93 +1,62 @@
-"Torian Confederation"={
-	key="Torian Confederation"
-	ship_prefix={
-		key="TCS"
+ui_galciv_torian = {
+	name = "EMPIRE_DESIGN_ui_galciv_torian"
+	adjective = "EMPIRE_DESIGN_ui_galciv_torian_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_galciv_torian_ship_prefix"
+	species = {
+		class = "REP"
+		portrait = "rep3"
+		name = "ui_galciv_torian_species_name"
+		plural = "ui_galciv_torian_species_plural"
+		adjective = "ui_galciv_torian_species_adjective"
+		name_list = "REP2"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_resilient"
+		trait = "trait_rapid_breeders"
+		trait = "trait_weak"
 	}
-	species={
-		class="REP"
-		portrait="rep3"
-		species_name={
-			key="Torian"
+	room = "personality_peaceful_traders_room"
+	authority = "auth_democratic"
+	government = gov_moral_democracy
+	origin = "origin_default"
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_pacifist"
+	planet_name = "ui_galciv_torian_planet_name"
+	planet_class = "pc_ocean"
+	system_name = "ui_galciv_torian_system_name"
+	initializer = ""
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_galciv"
+			file = "flag_ui_galciv_torian.dds"
 		}
-		species_plural={
-			key="Torians"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="Torian"
-		}
-		species_bio="The Torians are a wonderful, kind, gentle people, full of wonder and trust. As a species, the Torians are largely an aquatic race, and are nothing if not resilient. Toria is mostly covered in water and they prefer worlds that have more water on them than not."
-		name_list="REP2"
-		gender=not_set
-		trait="trait_resilient"
-		trait="trait_rapid_breeders"
-		trait="trait_weak"
-	}
-	name={
-		key="Torian Confederation"
-	}
-	adjective={
-		key="Torian"
-	}
-	authority="auth_democratic"
-	government="gov_moral_democracy"
-	planet_name={
-		key="Toria"
-	}
-	planet_class="pc_ocean"
-	system_name={
-		key="Torus"
-	}
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
-			category="ui_galciv"
-			file="flag_ui_galciv_torian.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"green"
 			"yellow"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Tlas Kzientha"
-			}
-		}
-		portrait="rep3_m"
-		texture=0
-		attachment=0
-		clothes=1
-		ruler_title={
-			key="Chancellor"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Chancellor"
-			literal=yes
-		}
-		trait="leader_trait_principled"
-		leader_class="official"
+	ruler = {
+		gender = male
+		name = "ui_galciv_torian_ruler_name"
+		portrait = "rep3_m"
+		texture = 0
+		attachment = 0
+		clothes = 1
+		ruler_title = "ui_galciv_torian_ruler_title"
+		ruler_title_female = "ui_galciv_torian_ruler_title_female"
+		trait = "leader_trait_principled"
+		leader_class = official
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_peaceful_traders_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	civics={
-		"civic_environmentalist"
-		"civic_agrarian_idyll"
-	}
-	origin="origin_default"
+	spawn_as_fallen = no
 }

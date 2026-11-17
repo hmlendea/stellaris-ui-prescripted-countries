@@ -35,7 +35,7 @@ Boundary rules:
 
 Path: `ui-prescripted-countries/prescripted_countries/`
 
-Each file defines exactly one empire template in Clausewitz script. The top-level block name and the `key` field must match (for example `"People's African Union"={ key="People's African Union" ... }`). The engine registers templates by key; duplicate keys cause load failures or silent omission.
+Each file defines exactly one empire template in Clausewitz script. The top-level key is a bare identifier derived from the filename with hyphens replaced by underscores (for example `ui_civbe_franco_iberia = { ... }` in `ui_civbe-franco-iberia.txt`). The engine registers templates by key; duplicate keys cause load failures or silent omission.
 
 Every definition is self-contained: no country file references another country file. All cross-mod references are by opaque string keys resolved against dependencies at load time.
 
@@ -43,7 +43,7 @@ Every definition is self-contained: no country file references another country f
 
 Path: `ui-prescripted-countries/localisation/english/`
 
-The single YAML file maps localisation keys to display strings under the mandatory `l_english:` root. Country definitions that use non-literal names (those without `literal=yes`) resolve through `EMPIRE_DESIGN_<key>` keys.
+The single YAML file maps localisation keys to display strings under the mandatory `l_english:` root. Country definitions store localisation keys for every human-readable field (`name`, `adjective`, `planet_name`, `system_name`, `ship_prefix`, species strings, ruler strings), and those keys resolve through this file. Values may chain to vanilla keys with `$KEY$` indirection.
 
 ## Data Flow Boundaries
 

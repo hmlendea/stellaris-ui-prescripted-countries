@@ -1,88 +1,60 @@
-"Roman Empire"={
-	key="Roman Empire"
-	ship_prefix={
-		key="RES"
+ui_extra_human_roman = {
+	name = "EMPIRE_DESIGN_ui_extra_human_roman"
+	adjective = "EMPIRE_DESIGN_ui_extra_human_roman_adj"
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+	ship_prefix = "ui_extra_human_roman_ship_prefix"
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "ui_extra_human_roman_species_name"
+		plural = "ui_extra_human_roman_species_plural"
+		adjective = "ui_extra_human_roman_species_adjective"
+		name_list = "ui_extra_humans_spqr_extended"
+		gender = not_set
+		trait = "trait_organic"
+		trait = "trait_intelligent"
+		trait = "trait_talented"
+		trait = "trait_decadent"
 	}
-	species={
-		class="HUM"
-		portrait="human"
-		species_name={
-			key="PRESCRIPTED_species_name_humans1"
+	room = "personality_evangelizing_zealots_room"
+	authority = "auth_imperial"
+	government = gov_star_empire
+	origin = "origin_lost_colony"
+	ethic = "ethic_fanatic_authoritarian"
+	ethic = "ethic_militarist"
+	planet_name = "ui_extra_human_roman_planet_name"
+	planet_class = "pc_continental"
+	system_name = "ui_extra_human_roman_system_name"
+	initializer = ""
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	empire_flag = {
+		icon = {
+			category = "ui_civ"
+			file = "ui_civ6_rome.dds"
 		}
-		species_plural={
-			key="PRESCRIPTED_species_name_humans1"
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
 		}
-		species_adjective={
-			key="PRESCRIPTED_species_name_humans1"
-		}
-		name_list="ui_extra_humans_spqr_extended"
-		gender=not_set
-		trait="trait_intelligent"
-		trait="trait_talented"
-		trait="trait_decadent"
-	}
-	name={
-		key="Roman Empire"
-	}
-	adjective={
-		key="Roman"
-	}
-	authority="auth_imperial"
-	flags={
-		"human_1"
-		"custom_start_screen"
-	}
-	government="gov_star_empire"
-	advisor_voice_type="l_militarist"
-	planet_name={
-		key="Nova Roma"
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Nova"
-	}
-	initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
-	empire_flag={
-		icon={
-			category="ui_civ"
-			file="ui_civ6_rome.dds"
-		}
-		background={
-			category="backgrounds"
-			file="00_solid.dds"
-		}
-		colors={
+		colors = {
 			"red"
 			"yellow"
 			"null"
 			"null"
 		}
 	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="Servius Cornelius"
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		attachment=29
-		clothes=6
-		trait="trait_ruler_warlike"
-		leader_class="commander"
+	ruler = {
+		gender = male
+		name = "ui_extra_human_roman_ruler_name"
+		portrait = "human_male_03"
+		texture = 0
+		attachment = 29
+		clothes = 6
+		trait = "trait_ruler_warlike"
+		leader_class = commander
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_evangelizing_zealots_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_militarist"
-	civics={
-		"civic_nationalistic_zeal"
-		"civic_efficient_bureaucracy"
-	}
-	origin="origin_lost_colony"
+	spawn_as_fallen = no
+	advisor_voice_type = "l_militarist"
 }

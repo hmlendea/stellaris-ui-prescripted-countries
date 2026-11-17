@@ -1,4 +1,4 @@
-version="1.3.0"
+version="v2.0.0"
 name="Universum Infinitum: Prescripted Countries"
 path="mod/ui-prescripted-countries"
 tags={

@@ -67,5 +67,5 @@ We appreciate responsible disclosure. Reporters who desire public attribution ma
 
 - [Security (docs/)](./docs/security.md) — Detailed security model, supply chain, multiplayer considerations.
 - [Dependencies](./docs/dependencies.md) — Required mods and cross-mod reference integrity.
-- [Build & Deployment](./docs/build-and-deployment.md) — Distribution channels, checksums, rollback.
+- [Build & Deployment](./docs/build-and-deployment.md) — Distribution channels, release archives, rollback.
 - [Architecture](./docs/architecture.md) — Integration boundaries, dependency direction.

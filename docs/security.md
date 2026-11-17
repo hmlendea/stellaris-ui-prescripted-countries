@@ -22,7 +22,7 @@ This mod has no attack surface. It contains:
 - Mod files are static assets.
 - No runtime modification of mod files.
 - Steam Workshop / Paradox Mods / Nexus Mods provide content-addressable distribution.
-- GitHub releases provide checksums (SHA256) for manual installation.
+- GitHub release archives are built by `.github/workflows/github-release.yml` from the tagged revision, so they match the release tag.
 
 ## No Secrets
 

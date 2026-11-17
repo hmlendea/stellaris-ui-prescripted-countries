@@ -5,6 +5,8 @@
 ```text
 stellaris-ui-prescripted-countries/
 ├── .github/                          # CI workflows and repository configuration
+│   └── workflows/
+│       └── github-release.yml        # Release archive build and upload
 ├── ARCHITECTURE.md                   # Root architecture document
 ├── CODE_OF_CONDUCT.md                # Community standards
 ├── CONTRIBUTING.md                   # Contribution guidelines

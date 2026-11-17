@@ -22,9 +22,9 @@ No build process. Mod is pure data files.
 ### GitHub Releases
 
 1. Tag commit: `v<version>` (e.g., `v1.2.2`).
-2. Create release with tag.
-3. Attach ZIP of `ui-prescripted-countries/` folder.
-4. Include SHA256 checksum in release notes.
+2. Create and publish the release with that tag.
+3. `.github/workflows/github-release.yml` runs on publication: it checks out the tagged revision, strips the leading `v` to derive the version, sets `version` in `ui-prescripted-countries.mod` and `ui-prescripted-countries/descriptor.mod` (inserting the line when absent), zips those two files with `ui-prescripted-countries/` into `ui-prescripted-countries_<version>.zip`, and attaches the archive to the release.
+4. No checksum is generated; the release body is left as written by the maintainer.
 
 ## Versioning
 
@@ -48,7 +48,7 @@ Semantic versioning: `MAJOR.MINOR.PATCH`
 - [ ] Dependencies updated to compatible versions
 - [ ] Version bumped in both descriptors
 - [ ] Git tag created
-- [ ] GitHub release created with checksum
+- [ ] GitHub release published, so `github-release.yml` attaches the archive
 - [ ] Steam Workshop updated
 - [ ] Paradox Mods updated
 - [ ] Nexus Mods updated

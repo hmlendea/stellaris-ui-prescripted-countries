@@ -1,5 +1,6 @@
 [![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/funding)
 [![Latest Release](https://img.shields.io/github/v/release/hmlendea/stellaris-ui-prescripted-countries)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/releases/latest)
+[![Build Status](https://github.com/hmlendea/stellaris-ui-prescripted-countries/actions/workflows/github-release.yml/badge.svg)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/actions/workflows/github-release.yml)
 [![License](https://img.shields.io/github/license/hmlendea/stellaris-ui-prescripted-countries)](https://github.com/hmlendea/stellaris-ui-prescripted-countries/blob/master/LICENSE)
 
 # Universum Infinitum: Prescripted Countries
@@ -21,6 +22,7 @@ A Stellaris mod adding prescripted countries for players to select or for the AI
 - [Development](#-development)
   - [Requirements](#requirements)
   - [Setup](#setup)
+- [GitHub Actions](#-github-actions)
 - [Project Structure](#-project-structure)
   - [Directories](#directories)
 - [Architecture](#-architecture)
@@ -29,6 +31,7 @@ A Stellaris mod adding prescripted countries for players to select or for the AI
 - [Code of Conduct](#-code-of-conduct)
 - [Related Projects](#-related-projects)
 - [Security](#-security)
+- [Support](#-support)
 - [Project Engagement](#-project-engagement)
 - [License](#-license)
 
@@ -115,6 +118,12 @@ cd stellaris-ui-prescripted-countries
 
 No dependency installation or compilation is required for this content-only mod.
 
+## ⚙️ GitHub Actions
+
+| Workflow | Purpose | What it does |
+|----------|---------|--------------|
+| [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-prescripted-countries/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-prescripted-countries_<version>.zip` from the published tag, setting the descriptor version first, and attaches it to the GitHub release |
+
 ## 🗂️ Project Structure
 
 The repository contains the mod descriptor and the Stellaris content files for one mod.
@@ -188,6 +197,10 @@ See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct exp
 Universum Infinitum: Prescripted Countries is a content-only Stellaris mod with no executable code; security risks are limited to mod content integrity and distribution channels.
 
 For information on reporting security vulnerabilities, see [SECURITY.md](./SECURITY.md).
+
+## 💬 Support
+
+For support, please [open an issue](https://github.com/hmlendea/stellaris-ui-prescripted-countries/issues).
 
 ## 💝 Project Engagement
 

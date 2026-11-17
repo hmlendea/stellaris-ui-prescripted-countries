@@ -50,7 +50,7 @@ Provides trait keys referenced by `species.traits`.
 |----------|-------------------|
 | Steam Workshop | Paradox Mod Tools upload |
 | Paradox Mods | Paradox Mod Tools upload |
-| Nexus Mods | Manual ZIP upload |
+| Nexus Mods | Automated upload by `.github/workflows/nexus-mods-release.yml` on `v*.*.*` tag push or manual dispatch |
 | GitHub Releases | Git tag + release assets |
 
 ## No External Integrations

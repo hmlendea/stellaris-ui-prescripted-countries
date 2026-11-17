@@ -19,6 +19,8 @@ No build process. Mod is pure data files.
 2. Name: `ui-prescripted-countries-<version>.zip`.
 3. Upload to Nexus Mods with version metadata.
 
+`.github/workflows/nexus-mods-release.yml` automates this on a `v*.*.*` tag push or manual dispatch: it checks out the tag, sets `version` in both descriptors, zips the descriptor and content directory into `release.zip`, and uploads it to file `948787` as `ui-prescripted-countries.zip` with the changelog link.
+
 ### GitHub Releases
 
 1. Tag commit: `v<version>` (e.g., `v1.2.2`).

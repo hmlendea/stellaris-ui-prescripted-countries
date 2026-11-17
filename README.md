@@ -123,6 +123,7 @@ No dependency installation or compilation is required for this content-only mod.
 | Workflow | Purpose | What it does |
 |----------|---------|--------------|
 | [ github-release.yml ](https://github.com/hmlendea/stellaris-ui-prescripted-countries/blob/master/.github/workflows/github-release.yml) | GitHub Release | Builds `ui-prescripted-countries_<version>.zip` from the published tag, setting the descriptor version first, and attaches it to the GitHub release |
+| [ nexus-mods-release.yml ](https://github.com/hmlendea/stellaris-ui-prescripted-countries/blob/master/.github/workflows/nexus-mods-release.yml) | Release to Nexus Mods | Runs on a `v*.*.*` tag push or manual dispatch: checks out the tag, sets the descriptor version, zips the descriptor and content directory, and uploads `ui-prescripted-countries.zip` to Nexus Mods |
 
 ## 🗂️ Project Structure
 
